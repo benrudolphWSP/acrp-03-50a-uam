@@ -1,0 +1,119 @@
+.home__header-overlay {
+  grid-area: home-overlay;
+  @apply relative lg:absolute lg:top-0 lg:right-0 lg:bottom-0 lg:left-0 lg:z-0 h-full max-h-64 lg:max-h-full;
+}
+
+.home__nav {
+  min-width: 25rem;
+}
+
+.home__nav-button {
+  @apply font-headers font-semibold transition duration-300 ease-in-out bg-white hover:bg-blue flex text-dark-gray no-underline hover:text-white py-5 pr-7 pl-14 rounded;
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .home-header {
+    display: grid;
+    grid-template:
+      "home-logo home-nymtc" 6.25rem
+      "home-overlay home-overlay" minmax(12.5rem, 15.625rem)
+      "home-nav home-nav" / 1fr 1fr;
+  }
+
+  .video-button {
+    position: absolute;
+    top:120px;
+    width:250px;
+    white-space:nowrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-header {
+    display: grid;
+    grid-template:
+      "home-logo home-nymtc" 9.8125rem
+      "home-logo home-nav" minmax(19.375rem, 1fr)
+      "home-magenta home-nav" minmax(7.5rem, 13.5625rem) / 1fr 1fr;
+
+    .logo {
+      grid-area: home-logo;
+    }
+
+    .nymtc-logo {
+      grid-area: home-nymtc;
+    }
+
+    .magenta-box {
+      grid-area: home-magenta;
+    }
+    .home-nav {
+      grid-area: home-nav;
+    }
+    .home__header-overlay {
+      grid-area: initial;
+    }
+  }
+}
+
+@media (min-width: 1536px) {
+  .home-header {
+    display: grid;
+    grid-template:
+      "home-logo home-nymtc" 9.8125rem
+      "home-logo home-nav" minmax(19.375rem, 1fr)
+      "home-magenta home-nav" minmax(7.5rem, 13.5625rem) / minmax(25rem, 50rem) minmax(15rem, 1fr);
+
+    .logo {
+      grid-area: home-logo;
+    }
+
+    .nymtc-logo {
+      grid-area: home-nymtc;
+    }
+
+    .magenta-box {
+      grid-area: home-magenta;
+    }
+    .home-nav {
+      grid-area: home-nav;
+    }
+    .home__header-overlay {
+      grid-area: initial;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-content {
+    display: grid;
+    grid-template: "home-left home-right" / 1fr 1fr;
+  }
+
+  .home-right {
+    grid-area: home-right;
+  }
+
+  .home-left {
+    grid-area: home-left;
+  }
+}
+
+@media (min-width: 1536px) {
+  .home-content {
+    display: grid;
+    grid-template: "home-left home-right" / minmax(25rem, 50rem) minmax(
+        15rem,
+        1fr
+      );
+  }
+
+  .home-right {
+    grid-area: home-right;
+  }
+
+  .home-left {
+    grid-area: home-left;
+  }
+}

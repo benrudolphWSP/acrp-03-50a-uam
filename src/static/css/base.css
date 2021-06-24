@@ -1,0 +1,97 @@
+:root {
+  --color-magenta: #aa1d4e;
+  --color-dark-magenta: #901942;
+  --color-orange: #f15a22;
+  --color-green: #6da943;
+  --color-light-blue: #92d8f5;
+  --color-ice-blue: #f0fbff;
+  --color-light-blue-dark: #a6dff7;
+  --color-ltblue-background: #f0fbff;
+  --color-blue: #00759a;
+  --color-gray: #d1d3d4;
+  --color-gray-ada: #757575;
+  --color-card-blue: #006889;
+  --color-footer-gray: rgba(209, 211, 212, 0.5);
+  --color-dark-gray: #131313;
+  --color-off-black: #323232;
+  --color-white: #ffffff;
+}
+
+[data-whatintent="mouse"] *:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  @apply mb-3;
+}
+
+h2 {
+  @apply font-copy text-2xl font-bold mb-3;
+}
+
+h3,
+.h3 {
+  @apply text-lg font-bold mb-3 text-magenta;
+}
+
+.section-title {
+  @apply sm:pl-4 font-headers font-extrabold italic m-0;
+  line-height:2.8rem;
+}
+
+p {
+  @apply mb-4 font-normal;
+}
+
+p > img {
+  margin: 2.1875rem auto;
+}
+
+a {
+  @apply text-blue underline;
+}
+
+a:hover {
+  @apply no-underline;
+}
+
+main {
+  @apply mb-16 mx-auto px-6 pt-8 md:pt-16;
+}
+
+main ul,
+main ol {
+  @apply ml-7 mt-5 mb-6 p-0;
+}
+main ul li {
+  @apply m-0 mb-4 ml-2 relative list-disc;
+}
+main ol li {
+  @apply m-0 mb-4 ml-2 relative;
+}
+main ol li::marker {
+  @apply font-bold;
+}
+main ul > ul {
+  @apply mt-2.5 mr-0 mb-2 ml-6;
+}
+main ul > ul > li {
+  @apply list-disc;
+}
+main ol {
+  @apply list-decimal;
+}
+
+ul.list-arrow li {
+  position: relative;
+  list-style-type: none;
+
+  &:before {
+    content: url(/images/arrow_bullet.svg);
+    position: absolute;
+    left: -25px;
+    top: calc(50% - 10px);
+  }
+}

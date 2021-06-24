@@ -1,0 +1,73 @@
+<header class="main-header">    <!--Logo etc-->
+    <div class="relative logo bg-white">
+      <a href="/" class="">
+        <img
+          class=""
+          src="/images/logo_revive275.svg"
+          alt="Revive 275, Will Carleton Road to 6 Mile Road"
+        />
+      </a>
+    </div>
+    <!--Hamburger Menu-->
+    <div class="mobile-menu bg-white">
+      <button
+        class="nav-mobile__toggle hamburger hamburger--spin"
+        type="button"
+        aria-controls="mainNav"
+        aria-label="Menu"
+        id="mobileNavToggle"
+      >
+        <span class="nav-mobile__toggle-text sr-only">Menu</span>
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+    <div id="mainNav" class="nav-container">
+      <!--Menu-->
+      <nav class="main-nav">
+          {% if navigation.items %}
+
+          <ul class="main-nav__menu">
+            {% for item in navigation.items %} 
+            <li class="main-nav__item">
+              <a
+                class="sub-nav__link"
+                href="{{ item.url }}"
+                >{{ item.text }}</a
+              >
+            </li>
+            {% endfor %}
+          </ul>
+
+          {% endif %}
+        </div>
+      </nav>
+    </div>
+</header>
+{% if path == "home" %}
+<div class="hero">
+  <h1 class="hero-title">
+    <span class="text-2xl block text-white font-normal font-headers mb-4"
+      >Will Carleton Road to 6 Mile Road</span
+    >
+    <img src="/images/revive275_hero_text.svg" alt="Revive 275" />
+  </h1>
+</div>
+<div class="home-tabs tabbed">
+  <ul class="tabs">
+    <li>
+      <a href="#openTab" class="tab">Now Open!</a>
+    </li>
+    <li>
+      <a href="#closuresTab" class="tab">Closures &amp; Detours</a>
+    </li>
+    <li>
+      <a href="#announcementTab" class="tab">Announcements</a>
+    </li>
+    <li>
+      <a href="#pressTab" class="tab">Press</a>
+    </li>
+  </ul>
+</div>
+{% endif %}

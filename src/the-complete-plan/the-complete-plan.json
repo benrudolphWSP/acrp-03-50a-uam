@@ -1,0 +1,4 @@
+{
+    "layout": "posts",
+    "permalink": "the-complete-plan/{{ title | slugMore }}/index.html"
+}

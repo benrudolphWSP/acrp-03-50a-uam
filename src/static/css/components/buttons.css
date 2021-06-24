@@ -1,0 +1,14 @@
+
+.button {
+  @apply block  px-5 py-2 font-headers text-dark-gray rounded-3xl max-w-max transition-colors duration-300 ease-in-out bg-light-blue hover:bg-blue hover:text-white no-underline;
+}
+.close-button {
+  @apply block px-2 py-0 ml-auto  font-bold border border-light-blue;
+}
+.learn-more {
+  @apply flex transition duration-300 ease-in-out text-light-blue-dark hover:text-white;
+  background-color: transparent;
+}
+.learn-more:hover {
+  background-color: transparent;
+}

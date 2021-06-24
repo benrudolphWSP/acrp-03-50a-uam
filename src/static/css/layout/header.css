@@ -1,0 +1,13 @@
+.main-header {
+  @apply  max-w-full bg-white;
+  .logo-nav {
+    
+  }
+
+  .logo {
+    @apply w-72 mx-6 my-5;
+  }
+  .mobile-menu {
+    @apply fixed top-0 right-0 flex justify-center items-center bg-white h-20 w-16 md:w-20 z-50;
+  }
+}
