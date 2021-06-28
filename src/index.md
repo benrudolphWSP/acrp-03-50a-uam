@@ -1,10 +1,11 @@
 ---
 layout: home.html
-title: Moving Forward 2050
+title: NEWT
 path: home
+hero: true
 eleventyNavigation:
   key: Home
+herotitle: Newt Site Starter Kit
+herocolor: bg-white
 ---
-<p class="uppercase font-headers text-sm tracking-widest">Welcome</p>
-
-The NEWT starter site uses a combination of [NetlifyCMS](https://www.netlifycms.org/), [Eleventy](https://www.11ty.dev/docs/) Static Site Generator, [Webpack](https://webpack.js.org/) and [Tailwind CSS](https://tailwindcss.com/docs).
+## Heading 2

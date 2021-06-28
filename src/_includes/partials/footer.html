@@ -1,48 +1,41 @@
-<footer class="bottom-0 max-w-full">
-  {% if path !== 'home' %}
-  <div class="bg-magenta py-8 px-16">
-    <div class="max-w-md mx-auto text-white text-lg text-center">
-      <p>
-       More than 300 million tons of domestic freight moves into, out of, and within the NYMTC planning area by truck, rail, water, air, and pipeline annually.
-      </p>
-      <a href="/comment-on-the-plan" class="button mx-auto mt-7">Comment on the Plan</a>
-    </div>
-  </div>
+<footer class="bottom-0 max-w-full py-10 px-8 text-center">
+  {% if social.links %}
+    <ul class="flex justify-center">
+      {% for item in social.links %}
+        <li class="mx-3">
+          <a href="{{item.url}}" target="_blank"><img src="{{item.icon}}" alt="{{item.title}}"/>
+            <span class="sr-only">(Opens in a new window)</span></a>
+        </li>
+      {% endfor %}
+    </ul>
   {% endif %}
+  <a href="{{settings.iconurl}}" class="inline-block" target="_blank">
+    <img
+      src="{{settings.icon}}"
+      alt="{{settings.alttext}}"/>
+    <span class="sr-only">(Opens in a new window)</span>
+  </a>
   <div class="bg-footer-gray text-center py-6 px-8">
     <small class="text-gray-500"
       > &copy; <span id="year"></span>
-      <a href="{{settings.url}}" rel="noopener" target="_blank"  class="text-off-black underline"
-        >{{settings.name}} <span class="sr-only">(Open in a new window)</span></a
+      <a href="{{settings.copyurl}}" rel="noopener" target="_blank"  class="text-off-black underline"
+        >{{settings.name}}
+        <span class="sr-only">(Open in a new window)</span></a
       >
     </small>
   </div>
 </footer>
 <script>
-    document.getElementById("year").innerHTML = new Date().getFullYear();
+  document
+    .getElementById("year")
+    .innerHTML = new Date().getFullYear();
 </script>
-<footer class="bottom-0 max-w-full py-10 px-8 text-center">
-  <ul class="flex justify-center">
-    <li class="mx-3">
-      <a href="#"><img src="/images/icon_facebook.svg" alt="" /></a>
-    </li>
-    <li class="mx-3">
-      <a href="#"><img src="/images/icon_twitter.svg" alt="" /></a>
-    </li>
-    <li class="mx-3">
-      <a href="#"><img src="/images/icon_youtube.svg" alt="" /></a>
-    </li>
-  </ul>
-  <a href="http://www.michigan.gov/mdot/" class="inline-block" target="_blank">
-    <img
-      src="/images/MDOT_footer_logo.png"
-      alt="Michigan Department of Transportation"
-    />
-    <span class="sr-only">(Opens in a new window)</span>
-  </a>
-  <p class="text-white text-xs mb-0 mt-8">
-    Revive 275 is not an official website of the Michigan Department of
-    Transportation
-  </p>
-</footer>
-
+{% if weglot.settings.show == true %}
+  <script
+  type="text/javascript"
+  src="https://cdn.weglot.com/weglot.min.js"
+></script>
+  <script>
+    Weglot.initialize({api_key: "{{weglot.settings.key}}"});
+  </script>
+{% endif %}

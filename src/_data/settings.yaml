@@ -1,3 +1,12 @@
-name: NYMTC
+name: NEWT Starter Kit
+headercolor: bg-hunter-green
+logo: /images/newt_logo.png
+alttext: Newt Site Starter Kit
+logourl: /
+copyright:
 author: Ben Rudolph
-url: https://www.nymtc.org/
+copyurl: 
+icon:
+iconalttext:
+iconurl:
+

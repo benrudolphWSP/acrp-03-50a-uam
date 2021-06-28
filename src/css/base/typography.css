@@ -1,0 +1,40 @@
+body {
+  @apply font-copy text-base;
+}
+
+h1,
+.h1 {
+  font-size: 3rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  @apply font-headers font-bold mb-3;
+}
+
+h2,
+.h2 {
+  @apply font-headers text-2xl font-bold mb-3;
+}
+
+h3,
+.h3 {
+  @apply text-lg font-bold mb-3 text-orange;
+}
+
+p {
+  @apply mb-4 font-normal;
+}
+
+p > img {
+  margin: 2.1875rem auto;
+}
+
+address {
+  @apply not-italic;
+}
+
+a {
+  @apply text-blue underline;
+}
+
+a:hover {
+  @apply no-underline;
+}

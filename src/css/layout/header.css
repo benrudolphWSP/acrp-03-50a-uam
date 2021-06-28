@@ -1,0 +1,7 @@
+.main-header {
+  @apply  max-w-full p-6;
+
+  .logo {
+    @apply w-72;
+  }
+}

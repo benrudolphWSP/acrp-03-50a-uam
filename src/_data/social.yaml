@@ -1,0 +1,14 @@
+---
+links:
+  - title: Twitter
+    url: "https://www.netlifycms.org/"
+    icon:
+  - title: Facebook
+    url: "https://www.11ty.dev/"
+    icon:
+  - title: Youtube
+    url: "https://github.com/alpinejs/alpine"
+    icon:
+  - title: Instagram
+    url: "https://instagram.com/"
+    icon:

@@ -1,0 +1,28 @@
+.home-tabs {
+  @apply bg-blue-links pt-7 pb-5;
+}
+
+.tabs {
+  @apply flex flex-wrap justify-center items-center m-0;
+}
+
+
+.tab,
+.no-tab {
+  @apply block p-2 text-white uppercase opacity-75 text-sm font-semibold hover:no-underline border-transparent border-b-2;
+}
+
+.tab:hover {
+  @apply opacity-100;
+}
+.tab[aria-selected] {
+  @apply opacity-100 border-light-blue font-bold;
+}
+
+.tab:not(last-of-type) {
+  @apply mr-8;
+}
+
+[role='tabpanel'] {
+  @apply px-5;
+}

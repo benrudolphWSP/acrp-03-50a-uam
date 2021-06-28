@@ -1,0 +1,7 @@
+
+.button {
+  @apply block  px-5 py-2 font-headers text-dark-gray rounded-3xl max-w-max transition-colors duration-300 ease-in-out bg-orange hover:bg-blue hover:text-white no-underline;
+}
+.close-button {
+  @apply block px-2 py-0 ml-auto  font-bold border border-barely-blue;
+}

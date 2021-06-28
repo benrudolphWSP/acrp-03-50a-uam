@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 const config = {
   entry: {
-    main: ["./src/scripts/main.js"],
+    main: ["./src/js/main.js"],
   },
   module: {
     rules: [

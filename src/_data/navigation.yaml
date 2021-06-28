@@ -1,17 +1,14 @@
+breadcrumbs: true
+fullscreennav: true
+dropdownnav: true
+horizontalnav: true
 items:
-  - text: Our Shared Vision for Regional Mobility
-    url: /our-shared-vision
-  - text: Our Expectations for the Future
-    url: /our-expectations
-  - text: Our Recommendations
-    url: /our-recommendations
-  - text: Our Plan to Pay for Our Plan
-    url: /our-plan-to-pay-for-our-plan
-  - text: Managing System Performance
-    url: /managing-system-performance
-  - text: The Complete Plan
-    url: /the-complete-plan
-  - text: Comment on the Plan
-    url: /comment-on-the-plan
-  - text: Supplemental Materials
-    url: /supplemental-materials
+  - text: Home
+    url: /
+    horizontalnav: true
+  - text: Child Page
+    url: /child
+  - text: Photo Gallery
+    url: /gallery
+  - text: News
+    url: /news
