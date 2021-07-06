@@ -1,6 +1,6 @@
 breadcrumbs: true
-fullscreennav: true
-dropdownnav: true
+fullscreennav: false
+dropdownnav: false
 horizontalnav: true
 items:
   - text: Home

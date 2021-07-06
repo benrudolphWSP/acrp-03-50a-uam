@@ -3,11 +3,21 @@ layout: default
 ---
 
 <main class="max-w-full">
-  <div class="max-w-800 mx-auto flex items-center mb-5 sm:mb-8">
-    <img class="self-center hidden sm:block w-6 md:w-11" src="/images/h1_arrow.svg" alt="" />
-    <h1 class="section-title">
-      {{title}}
-    </h1>
+  <h1 class="section-title">{{title}}</h1>
+  {% if galleryImages[0].image %}
+  <div class="swiper-container video-swiper">
+    <div class="swiper-wrapper">
+      {% for image in galleryImages %}
+      <div class="swiper-slide" data-slide="1">
+        <div class="swiper-slide__media">
+          <img src="{{image.image}}" alt="{{image.altText}}" srcset="" />
+        </div>
+        <div class="swiper-slide__text">{{ content | safe }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </div>
-  <div class="max-w-800 mx-auto">{{ content | safe }}</div>
+  {% endif %}
 </main>

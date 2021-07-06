@@ -65,6 +65,7 @@
     "markdown-it-attrs": "^4.0.0",
     "modal-video": "^2.4.2",
     "promise-polyfill": "8.2.0",
+    "swiper": "^6.7.5",
     "what-input": "^5.2.10"
   },
   "browserslist": [

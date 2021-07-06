@@ -76,7 +76,7 @@ collections:
               label: Layout,
               name: layout,
               widget: hidden,
-              default: 'child.html',
+              default: 'gallery.html',
             }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', widget: 'markdown' }
