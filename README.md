@@ -44,3 +44,8 @@ An example of includes can be found in the default template `src/_includes/defau
 {% include "./partials/footer.html" %}
 ```
 Eleventy data can be used for things like the site navigation, site title, quicklinks, and injected into our templates without the need to copy and paste to each page.
+
+## To Do
+
+* Site cleanup
+* Dynamically create main entry point for javascript from 11ty data file
