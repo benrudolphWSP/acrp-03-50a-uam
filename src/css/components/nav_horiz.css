@@ -1,0 +1,29 @@
+.menu-toggle-fullscreen {
+  @apply fixed top-0 right-0 flex justify-center items-center bg-barely-blue h-20 w-16 md:w-20 z-50;
+}
+
+/* Style for Horizontal Nav */
+.nav-container--horiz {
+  @apply py-6 md:py-12;
+
+  .main-nav {
+    @apply md:flex justify-center;
+  }
+
+  .main-nav__item {
+    @apply px-7 py-4 md:py-0;
+  }
+
+  .main-nav__link {
+    @apply block hover:text-white font-bold text-sm no-underline hover:underline uppercase;
+  }
+
+  .main-nav__link[aria-current] {
+    @apply text-white;
+  }
+
+  .main-nav__item.button,
+  .main-nav__item.no-border {
+    @apply border-0;
+  }
+}

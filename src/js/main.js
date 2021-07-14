@@ -6,7 +6,7 @@ import ShowHide from "./Components/ShowHide.js";
 import PageTabs from "./Components/Tabs";
 import { flipListen } from "./Components/FlipCards";
 import { dataListen, initElements } from "./Components/ToggleData";
-import { menuListen } from "./Components/MenuToggle";
+import { menuListen } from "./Components/DropdownNav";
 import ModalVideo from "modal-video";
 import SidebarToggle from "./Components/NavSidebar";
 import Swiper, { Navigation, A11y, Keyboard } from "swiper";
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-    // Navigation setup
-  if (document.querySelector(".nav-mobile__toggle")) {
+    // Fullscreen Navigation setup
+  if (document.querySelector("[data-nav='fullscreen']")) {
     SidebarToggle.setup();
   }
     // Home page tabs setup
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Main Menu
-  if (document.querySelector(".menu-toggle")) {
+  if (document.querySelector("[data-nav='dropdown']")) {
     menuListen();
   }
 

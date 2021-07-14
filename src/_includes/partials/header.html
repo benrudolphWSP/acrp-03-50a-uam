@@ -5,7 +5,7 @@
       <img class="" src="{{settings.logo}}" alt="{{settings.alttext}}"/>
     </a>
   </div>
-  <div class="menu-toggle-fullscreen">
+  <div class="menu-toggle-fullscreen {% if navigation.horizontalnav %}md:hidden{% endif %}">
     <button
     class="nav-mobile__toggle hamburger hamburger--spin"
     aria-controls="mainNav"
@@ -20,7 +20,7 @@
   {% if navigation.fullscreennav == true %}
     {# Hamburger Menu #}
     {# Fullscreen Nav #}
-    <div id="mainNav" class="nav-container--fullscreen">
+    <div id="mainNav" class="nav-container--fullscreen" data-nav="fullscreen">
       <!--Menu-->
       <nav class="main-nav">
         {% if navigation.items %}
@@ -38,7 +38,7 @@
   {% endif %}
   {# Dropdown Nav #}
   {% if navigation.dropdownnav == true %}
-    <div class="relative bg-white w-full md:w-72 rounded">
+    <div class="relative bg-white w-full md:w-72 rounded" data-nav="dropdown">
       <div class="h-12 md:h-full">
         <!--Toggle button (hidden on large screens)-->
         <button aria-expanded="false" class="flex justify-between w-full h-full menu-toggle" aria-label="Menu">
@@ -86,7 +86,7 @@
   {% endif %}
   {# Horizontal Nav #}
   {% if navigation.horizontalnav == true %}
-    <nav class="nav-container--horiz">
+    <nav id="mainNav" class="nav-container--horiz" data-nav="horizontal">
       <ul class="main-nav">
         {% for item in navigation.items %}
           <li class="main-nav__item">
