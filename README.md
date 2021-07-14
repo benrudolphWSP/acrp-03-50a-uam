@@ -49,3 +49,4 @@ Eleventy data can be used for things like the site navigation, site title, quick
 
 * Site cleanup
 * Dynamically create main entry point for javascript from 11ty data file
+* Add Social Media Icons. And ability to use default or upload custom.
