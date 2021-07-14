@@ -1,0 +1,176 @@
+backend:
+  # Use netlify identity as backend
+  name: git-gateway
+  branch: main
+  ### enable below lines for github integration ###
+  # name: github
+  # repo: surjithctly/neat-starter
+media_folder: 'src/static/img'
+public_folder: '/images'
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+
+logo_url: '/images/logo.svg'
+
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+
+# publish_mode: editorial_workflow
+
+collections:
+  - label: 'News'
+    name: 'news'
+    folder: 'src/news'
+    filter: { field: 'tags', value: 'news' }
+    create: true
+    editor:
+      preview: true
+    sortable_fields: ['commit_date', 'title']
+    fields:
+      - { label: 'Page Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "news" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "posts" }
+  - label: 'Site Pages'
+    name: 'pages'
+    files:
+      - label: 'Home Page'
+        name: 'home'
+        file: 'src/index.md'
+        fields:
+          - {
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: 'home.html',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Show Hero, name: hero, widget: boolean }
+          - { label: Hero Title, name: herotitle, required: false,widget: string }
+          - { label: Hero Background Image, name: herobackground, required: false,widget: image }
+          - label: Hero Background Color
+            name: herocolor
+            required: false
+            widget: select 
+            options: ["bg-white","bg-newt-green","bg-hunter-green","bg-orange-soda","bg-ebony"]
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Child Page'
+        name: 'child'
+        file: 'src/child.md'
+        fields:
+          - {
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: 'child.html',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Gallery'
+        name: 'gallery'
+        file: 'src/gallery.md'
+        fields:
+          - {
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: 'gallery.html',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Gallery',
+              name: 'galleryImages',
+              widget: 'list',
+              fields:
+                [
+                  { label: 'Image', name: 'image', widget: 'image' },
+                  { label: 'Alt', name: 'altText', widget: 'text' },
+                  {
+                    label: 'Caption',
+                    name: 'caption',
+                    widget: 'text',
+                    required: false,
+                  },
+                ],
+            }
+  - label: 'Settings'
+    name: 'settings'
+    editor:
+      preview: false
+    files:
+      - label: 'Site Settings'
+        name: 'settings'
+        file: 'src/_data/settings.yaml'
+        fields:
+          - { label: 'Site name', name: name, widget: string }
+          - label: Header Color
+            name: headercolor
+            required: false
+            widget: select 
+            options: ["bg-white","bg-newt-green","bg-hunter-green","bg-orange-soda","bg-ebony"]
+          - { label: 'Logo', name: logo, widget: image }
+          - { label: 'Logo Alt Text', name: alttext, widget: string }
+          - { label: 'Logo Url', name: logourl, widget: string }
+          - { label: 'Copyright name', name: copyright, widget: string }
+          - { label: 'Author', name: author, widget: string }
+          - { label: 'Copyright URL', name: url, widget: string }
+          - { label: 'Footer Logo', name: icon, widget: image }
+          - { label: 'Footer Logo alt', name: iconalttext, widget: string }
+          - { label: 'Footer Logo URL', name: iconurl, widget: string }
+      - label: 'Navigation'
+        name: 'items'
+        file: 'src/_data/navigation.yaml'
+        fields:
+          - { label: 'Show Breadcrumbs', name: breadcrumbs, widget: boolean }
+          - {
+              label: 'Show Fullscreen Nav',
+              name: fullscreennav,
+              widget: boolean,
+            }
+          - { label: 'Show Dropdown Nav', name: dropdownnav, widget: boolean }
+          - { label: 'Horizontal Nav', name: horizontalnav, widget: boolean }
+          - label: Nav Items
+            name: items
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
+      - label: 'Social'
+        name: 'links'
+        file: 'src/_data/social.yaml'
+        fields:
+          - label: Social Items
+            name: links
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Icon, name: icon, widget: image }
+      - label: 'Weglot'
+        name: 'weglot'
+        file: 'src/_data/weglot.yaml'
+        fields:
+          - label: Weglot
+            name: settings
+            widget: list
+            fields:
+              - { label: Show, name: show, widget: string }
+              - { label: API Key, name: api, widget: string }
+      - label: 'Analytics'
+        name: 'analytics'
+        file: 'src/_data/analytics.yaml'
+        fields:
+          - label: Analytics
+            name: analytics
+            widget: list
+            fields:
+              - { label: Show, name: show, widget: string }
+              - { label: Analytics Code, name: api, widget: string }
+

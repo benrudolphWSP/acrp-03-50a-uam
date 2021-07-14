@@ -1,0 +1,114 @@
+<header class="main-header {% if settings.headercolor %}{{settings.headercolor}}{% endif %}">
+  {# Logo #}
+  <div class="relative logo">
+    <a href="{{settings.logourl}}" class="">
+      <img class="" src="{{settings.logo}}" alt="{{settings.alttext}}"/>
+    </a>
+  </div>
+  <div class="menu-toggle-fullscreen">
+    <button
+    class="nav-mobile__toggle hamburger hamburger--spin"
+    aria-controls="mainNav"
+    aria-label="Site Menu"
+    id="mobileNavToggle">
+      <span class="nav-mobile__toggle-text sr-only">Menu</span>
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+  {% if navigation.fullscreennav == true %}
+    {# Hamburger Menu #}
+    {# Fullscreen Nav #}
+    <div id="mainNav" class="nav-container--fullscreen">
+      <!--Menu-->
+      <nav class="main-nav">
+        {% if navigation.items %}
+          <ol class="main-nav__menu">
+            {% for item in navigation.items %}
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="{{ item.url }}">{{ item.text }}</a>
+              </li>
+            {% endfor %}
+          </ol>
+        {% endif %}
+      </nav>
+    </div>
+    {# End Fullscreen Nav #}
+  {% endif %}
+  {# Dropdown Nav #}
+  {% if navigation.dropdownnav == true %}
+    <div class="relative bg-white w-full md:w-72 rounded">
+      <div class="h-12 md:h-full">
+        <!--Toggle button (hidden on large screens)-->
+        <button aria-expanded="false" class="flex justify-between w-full h-full menu-toggle" aria-label="Menu">
+          <span class="self-center flex ml-4 font-headers">
+            <img src="/images/hamburger_menu.svg" alt="" class="self-center mr-5"/>
+        Site Menu
+      </span>
+          <span class="flex items-center bg-light-blue px-2 self-stretch rounded-br rounded-tr w-12 place-self-end">
+            <svg
+          class="fill-current h-4 w-4 mx-auto transition transform"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20">
+              <path
+            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+            </svg>
+          </span>
+        </button>
+        <nav>
+          <!--Menu-->
+          <div class="dropdown-menu main-nav" hidden>
+            {% if navigation.items %}
+              <ul class="">
+                {% for item in navigation.items %}
+                  {% if item.url == '/the-complete-plan' %}
+                    <li class="dropdown-menu__item">
+                      <a class="text-ml flex justify-between text-white no-underline text hover:text-white py-4 px-4 hover:bg-blue" href="{{ item.url }}">{{ item.text }}
+                        <svg class="fill-white group-hover:fill-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 17H4V19H14V17ZM20 9H4V11H20V9ZM4 15H20V13H4V15ZM4 5V7H20V5H4Z"></path>
+                        </svg>
+                      </a>
+                    </li>
+                  {% else %}
+                    <li class="dropdown-menu__item">
+                      <a class="text-ml block text-dark-gray no-underline text hover:text-white py-4 px-4" href="{{ item.url }}">{{ item.text }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </nav>
+      </div>
+    </div>
+    {# End dropdown nav #}
+  {% endif %}
+  {# Horizontal Nav #}
+  {% if navigation.horizontalnav == true %}
+    <nav class="nav-container--horiz">
+      <ul class="main-nav">
+        {% for item in navigation.items %}
+          <li class="main-nav__item">
+            <a class="sub-nav__link" href="{{ item.url }}">{{ item.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+  {% if path != "home" %}
+    {% set breadcrumbs = collections.all | eleventyNavigationBreadcrumb("Home")%}
+    {# Breadcrumbs #}
+    <nav aria-label="site breadcrumbs">
+      <ul class="breadcrumbs">
+        <li>
+          <span class="sr-only">You are here:</span>
+          <a class="text-barely-blue hover:text-white" href="/">Home</a>
+          <span class="mx-3">></span>
+        </li>
+        <li>{{ elventyNavigation.key or title }}</li>
+      </ul>
+    </nav>
+    {# End Breadcrumbs #}
+  {% endif %}
+</header>

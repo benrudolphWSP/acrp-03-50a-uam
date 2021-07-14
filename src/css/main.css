@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+:root {
+  --color-newt-green: #AECD3A;
+  --color-hunter-green: #26532B;
+  --color-orange-soda: #F15A35;
+  --color-ebony: #464E47;
+  --color-blue: #4281A4;
+  --color-gray-purple: #E2DADB;
+  --color-barely-blue: #E7ECEF;
+  --color-dark-gray: #323232;
+  --color-white: #ffffff;
+}
+
+
+[data-whatintent="mouse"] *:focus {
+  outline: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+main ul,
+main ol,
+.basic-list {
+  @apply ml-7 mt-5 mb-6 p-0;
+}
+main ul li,
+.basic-list li {
+  @apply m-0 mb-2 ml-2 relative list-disc;
+}
+main ol li {
+  @apply m-0 mb-4 ml-2 relative;
+}
+main ol li::marker {
+  @apply font-bold;
+}
+main ul li > ul,
+.basic-list li > ul {
+  @apply mt-2.5 mr-0 mb-2 ml-6;
+}
+main ul li > ul > li,
+.basic-list li > ul > li {
+  @apply list-disc;
+}
+main ol {
+  @apply list-decimal;
+} 
+
+.two-column {
+  columns: 2;
+}
+
+.image-right {
+  float: right;
+  margin-bottom: 0.9375rem;
+  margin-left: 0.9375rem;
+}
+.image-left {
+  float: left;
+  margin-bottom: 0.9375rem;
+  margin-right: 0.9375rem;
+}

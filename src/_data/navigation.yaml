@@ -1,0 +1,14 @@
+breadcrumbs: true
+fullscreennav: false
+dropdownnav: false
+horizontalnav: true
+items:
+  - text: Home
+    url: /
+    horizontalnav: true
+  - text: Child Page
+    url: /child
+  - text: Photo Gallery
+    url: /gallery
+  - text: News
+    url: /news

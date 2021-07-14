@@ -1,0 +1,4 @@
+
+.breadcrumbs {
+  @apply flex uppercase font-headers text-white text-sm tracking-widest;
+}

@@ -1,0 +1,144 @@
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+
+  /* The actual timeline (the vertical ruler) */
+  &::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: var(--color-lines);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  & .basic-list {
+    margin: 1rem 0 1.6rem 2rem;
+  }
+
+  &__date {
+    margin: 0;
+  }
+  &__container:nth-child(odd) &__date {
+    text-align: left;
+  }
+  &__container:nth-child(even) &__date {
+    text-align: right;
+  }
+
+  /* Container around content */
+  &__container {
+    padding: 1rem 3rem;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+
+    /* The circles on the timeline */
+    &::after {
+      content: "";
+      position: absolute;
+      width: 2.5rem;
+      height: 2.5rem;
+      right: -1.25rem;
+      background-color: white;
+      border: 4px solid var(--color-blue-fill);
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+  }
+
+  /* Place the container to the left */
+  &__container:nth-child(even) {
+    left: 0;
+  }
+
+  /* Place the container to the right */
+  &__container:nth-child(odd) {
+    left: 50%;
+  }
+
+  /* Add arrows to the left container (pointing right) */
+  &__container:nth-child(even)::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid var(--color-blue-links);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent var(--color-blue-links);
+  }
+
+  /* Add arrows to the right container (pointing left) */
+  &__container:nth-child(odd)::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid var(--color-blue-links);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--color-blue-links) transparent transparent;
+  }
+
+  /* Fix the circle for containers on the right side */
+  &__container:nth-child(odd)::after {
+    left: -1.25rem;
+  }
+
+  /* The actual content */
+  &__content {
+    padding: 20px 30px;
+    background-color: var(--color-light-gray);
+    position: relative;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 768px) {
+    /* Place the timelime to the left */
+    &::after {
+      left: 31px;
+    }
+
+    /* Full-width containers */
+    &__container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    &__container:nth-child(even)::before,
+    &__container:nth-child(odd)::before {
+      left: 60px;
+      border: medium solid var(--color-lines);
+      border-width: 10px 10px 10px 0;
+      border-color: transparent var(--color-blue-links) transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    &__container:nth-child(even)::after,
+    &__container:nth-child(odd)::after {
+      left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    &__container:nth-child(odd) {
+      left: 0%;
+    }
+
+    &__date {
+      margin-left:0.625rem;
+    }
+    &__container:nth-child(even) &__date {
+      text-align: left;
+    }
+  }
+}

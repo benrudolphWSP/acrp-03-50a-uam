@@ -1,0 +1,41 @@
+<footer class="bottom-0 max-w-full py-10 px-8 text-center">
+  {% if social.links %}
+    <ul class="flex justify-center">
+      {% for item in social.links %}
+        <li class="mx-3">
+          <a href="{{item.url}}" target="_blank"><img src="{{item.icon}}" alt="{{item.title}}"/>
+            <span class="sr-only">(Opens in a new window)</span></a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <a href="{{settings.iconurl}}" class="inline-block" target="_blank">
+    <img
+      src="{{settings.icon}}"
+      alt="{{settings.alttext}}"/>
+    <span class="sr-only">(Opens in a new window)</span>
+  </a>
+  <div class="bg-footer-gray text-center py-6 px-8">
+    <small class="text-gray-500"
+      > &copy; <span id="year"></span>
+      <a href="{{settings.copyurl}}" rel="noopener" target="_blank"  class="text-off-black underline"
+        >{{settings.name}}
+        <span class="sr-only">(Open in a new window)</span></a
+      >
+    </small>
+  </div>
+</footer>
+<script>
+  document
+    .getElementById("year")
+    .innerHTML = new Date().getFullYear();
+</script>
+{% if weglot.settings.show == true %}
+  <script
+  type="text/javascript"
+  src="https://cdn.weglot.com/weglot.min.js"
+></script>
+  <script>
+    Weglot.initialize({api_key: "{{weglot.settings.key}}"});
+  </script>
+{% endif %}
