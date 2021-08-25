@@ -1,5 +1,5 @@
 .menu-toggle-fullscreen {
-  @apply fixed top-0 right-0 flex justify-center items-center bg-barely-blue h-20 w-16 md:w-20 z-50;
+  @apply fixed top-0 right-0 flex justify-center items-center bg-dark h-20 w-16 md:w-20 z-50;
 }
 
 /* Style for Horizontal Nav */

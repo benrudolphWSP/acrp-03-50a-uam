@@ -1,12 +1,11 @@
 name: NEWT Starter Kit
-headercolor: bg-hunter-green
+headercolor: bg-light
 logo: /images/newt_logo.png
 alttext: Newt Site Starter Kit
 logourl: /
-copyright:
+copyright: null
 author: Ben Rudolph
-copyurl: 
-icon:
-iconalttext:
-iconurl:
-
+footerlogo: null
+footerlogoalttext: null
+footerlogourl: null
+copyurl: null

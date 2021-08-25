@@ -54,11 +54,11 @@ collections:
             name: herocolor
             required: false
             widget: select 
-            options: ["bg-white","bg-newt-green","bg-hunter-green","bg-orange-soda","bg-ebony"]
+            options: ["bg-white","bg-primary","bg-secondary","bg-accent","bg-dark"]
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Child Page'
-        name: 'child'
-        file: 'src/child.md'
+      - label: 'Accordions'
+        name: 'accordions'
+        file: 'src/accordions.md'
         fields:
           - {
               label: Layout,
@@ -110,16 +110,16 @@ collections:
             name: headercolor
             required: false
             widget: select 
-            options: ["bg-white","bg-newt-green","bg-hunter-green","bg-orange-soda","bg-ebony"]
-          - { label: 'Logo', name: logo, widget: image }
-          - { label: 'Logo Alt Text', name: alttext, widget: string }
-          - { label: 'Logo Url', name: logourl, widget: string }
-          - { label: 'Copyright name', name: copyright, widget: string }
-          - { label: 'Author', name: author, widget: string }
-          - { label: 'Copyright URL', name: url, widget: string }
-          - { label: 'Footer Logo', name: icon, widget: image }
-          - { label: 'Footer Logo alt', name: iconalttext, widget: string }
-          - { label: 'Footer Logo URL', name: iconurl, widget: string }
+            options: ["bg-white","bg-primary","bg-secondary","bg-accent","bg-dark","bg-light"]
+          - { label: 'Logo', name: logo, required: false, widget: image }
+          - { label: 'Logo Alt Text', name: alttext, required: false, widget: string }
+          - { label: 'Logo Url', name: logourl, required: false, widget: string }
+          - { label: 'Copyright name', name: copyright, required: false, widget: string }
+          - { label: 'Author', name: author, required: false, widget: string }
+          - { label: 'Copyright URL', name: url, required: false, widget: string }
+          - { label: 'Footer Logo', name: footerlogo, required: false, widget: image }
+          - { label: 'Footer Logo alt', name: footerlogoalttext, required: false, widget: string }
+          - { label: 'Footer Logo URL', name: footerlogourl, required: false, widget: string }
       - label: 'Navigation'
         name: 'items'
         file: 'src/_data/navigation.yaml'
@@ -150,9 +150,28 @@ collections:
             allow_add: true
             collapsed: false
             fields:
-              - { label: Title, name: title, widget: string }
+              - label: Social Channel
+                name: socialname 
+                widget: select
+                options:
+                  - { label: "Facebook", value: "facebook" }
+                  - { label: "Twitter", value: "twitter" }
+                  - { label: "YouTube", value: "youtube" }
+                  - { label: "Instagram", value: "instagram" }
+                  - { label: "Vimeo", value: "vimeo" }
+                  - { label: "Pinterest", value: "pinterest" }
               - { label: URL, name: url, widget: string }
-              - { label: Icon, name: icon, widget: image }
+              - label: Icon
+                name: icon 
+                widget: select
+                options:
+                  - { label: "Flat", value: "flat" }
+                  - { label: "Circle", value: "circle" }
+              - label: Icon Color
+                name: iconcolor
+                required: false
+                widget: select 
+                options: ["fill-white","fill-primary","fill-secondary","fill-accent","fill-dark","fill-light"]
       - label: 'Weglot'
         name: 'weglot'
         file: 'src/_data/weglot.yaml'

@@ -1,5 +1,5 @@
 .home-tabs {
-  @apply bg-blue-links pt-7 pb-5;
+  @apply bg-dark-links pt-7 pb-5;
 }
 
 .tabs {
@@ -16,7 +16,7 @@
   @apply opacity-100;
 }
 .tab[aria-selected] {
-  @apply opacity-100 border-light-blue font-bold;
+  @apply opacity-100 border-light-dark font-bold;
 }
 
 .tab:not(last-of-type) {

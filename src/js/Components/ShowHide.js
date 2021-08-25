@@ -1,9 +1,9 @@
 const ShowHide = {
   setElelements: function () {
-    showHide.toggle = document.querySelectorAll('[data-showhide="toggle"]');
-    showHide.content = document.querySelectorAll('[data-showhide="content"]');
-    showHide.close = document.querySelectorAll('[data-showhide="close"]');
-    showHide.init();
+    ShowHide.toggle = document.querySelectorAll('[data-showhide="toggle"]');
+    ShowHide.content = document.querySelectorAll('[data-showhide="content"]');
+    ShowHide.close = document.querySelectorAll('[data-showhide="close"]');
+    ShowHide.init();
   },
   timeoutSet: function (element) {
     setTimeout(function () {
@@ -46,16 +46,16 @@ const ShowHide = {
 
   init: function () {
     // Add the type button to button so it's not mistaken for a form button
-    Array.prototype.forEach.call(showHide.toggle, (toggle) => {
+    Array.prototype.forEach.call(ShowHide.toggle, (toggle) => {
       toggle.setAttribute("aria-expanded", "false");
     });
 
-    Array.prototype.forEach.call(showHide.close, (close) => {
+    Array.prototype.forEach.call(ShowHide.close, (close) => {
       close.setAttribute("aria-expanded", "false");
       close.setAttribute("hidden", "");
     });
 
-    Array.prototype.forEach.call(showHide.content, (content) => {
+    Array.prototype.forEach.call(ShowHide.content, (content) => {
       content.setAttribute("hidden", "");
     });
 
@@ -64,7 +64,7 @@ const ShowHide = {
     //     showHide.toggleShowHide(event);
     //   }
     // });
-    document.addEventListener("click", showHide.toggleShowHide, false);
+    document.addEventListener('click', ShowHide.toggleShowHide, false);
   },
 };
 

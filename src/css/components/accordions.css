@@ -13,7 +13,7 @@
   padding: 0;
 }
 .accordion__toggle {
-  @apply text-dark-gray font-semibold;
+  @apply text-white font-semibold;
   position: relative;
   cursor: pointer;
   padding: 1.125rem 3.25rem 1.125rem 1.25rem;
@@ -23,12 +23,12 @@
   border: none;
   text-decoration: none;
   transition: background 0.25s ease-in-out;
-  background: var(--color-newt-green);
+  background: var(--color-primary);
 }
 
 .accordion__toggle:hover,
 .accordion__toggle:focus {
-  background: var(--color-hunter-green);
+  background: var(--color-secondary);
   color: var(--color-white);
 }
 
@@ -38,7 +38,7 @@
 }
 
 .accordion [aria-expanded="true"] {
-  @apply bg-blue text-white;
+  @apply bg-secondary text-white;
 }
 .accordion .arrow {
   display: block;
@@ -103,7 +103,7 @@
   justify-content: flex-end;
 }
 .accordion__toggle-all {
-  @apply text-blue underline;
+  @apply text-dark underline;
   cursor: pointer;
 }
 
@@ -114,7 +114,7 @@
     color: var(--color-green);
     background: white;
     padding: 1.125rem 1.25rem 1.125rem 3.125rem;
-    border-bottom: 1px solid var(--color-gray-purple);
+    border-bottom: 1px solid var(--color-gray);
 
     &:hover,
     &:focus {
@@ -161,103 +161,5 @@
 
   .accordion__panel[aria-hidden="false"] {
     border-bottom: 1px solid var(--color-gray-purple);
-  }
-}
-
-/* Accordions with Icons */
-
-.accordion__toggle {
-  display: flex;
-  align-items: center;
-  .safety-icon,
-  .travel-icon,
-  .planning-icon,
-  .reducing-icon,
-  .resiliency-icon {
-    display: inline-block;
-    position: relative;
-    width: 4.375rem;
-    height: 4.375rem;
-    margin-right: 0.625rem;
-  }
-  .safety-icon {
-    &::before {
-      content: url(/images/icon_need_01.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-
-  .travel-icon {
-    &::before {
-      content: url(/images/icon_need_02.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-
-  .planning-icon {
-    &::before {
-      content: url(/images/icon_need_03.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-
-  .reducing-icon {
-    &::before {
-      content: url(/images/icon_need_04.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-
-  .resiliency-icon {
-    &::before {
-      content: url(/images/icon_need_05.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-}
-.accordion__toggle:hover,
-.accordion__toggle:focus,
-.accordion__toggle[aria-expanded="true"] {
-  .safety-icon {
-    &::before {
-      content: url(/images/icon_need_01_reverse.svg);
-    }
-  }
-
-  .travel-icon {
-    &::before {
-      content: url(/images/icon_need_02_reverse.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-
-  .planning-icon {
-    &::before {
-      content: url(/images/icon_need_03_reverse.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-
-  .reducing-icon {
-    &::before {
-      content: url(/images/icon_need_04_reverse.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
-  }
-
-  .resiliency-icon {
-    &::before {
-      content: url(/images/icon_need_05_reverse.svg);
-      width: 1.875rem;
-      height: 1.875rem;
-    }
   }
 }

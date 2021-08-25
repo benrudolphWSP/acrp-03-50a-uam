@@ -35,7 +35,7 @@
           },
         ],
         // Pattern to identify a block as being an instance of this component
-        pattern: /<div class='accordion'><div class='accordion__title'>([\s\S]*?)<\/div><div class='accordion__panel'>([\s\S]*?)<\/div><\/div>/,
+        pattern: /^<div class='accordion'>\n<div class='accordion__title'>([\s\S]*?)<\/div>\n<div class='accordion__panel'>\n\n([\s\S]*?)\n\n<\/div>\n<\/div>$/ms,
 
         // Function to extract data elements from the regexp match
         fromBlock: function (match) {
@@ -46,7 +46,13 @@
         },
         // Function to create a text block from an instance of this component
         toBlock: function (obj) {
-          return `<div class='accordion'><div class='accordion__title'>${obj.title}</div><div class='accordion__panel'> ${obj.content} </div></div>`;
+          return `<div class='accordion'><div class='accordion__title'>${obj.title}</div>
+<div class='accordion__panel'>
+
+${obj.content}
+
+</div>
+</div>`;
         },
         // Preview output for this component. Can either be a string or a React component
         // (component gives better render performance)

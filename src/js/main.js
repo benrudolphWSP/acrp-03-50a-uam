@@ -13,6 +13,7 @@ import Swiper, { Navigation, A11y, Keyboard } from "swiper";
 Swiper.use([Navigation, A11y, Keyboard]);
 
 
+
 document.addEventListener("DOMContentLoaded", function () {
 
   if (document.querySelector(".accordion")) {

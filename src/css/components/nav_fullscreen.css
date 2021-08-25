@@ -1,11 +1,11 @@
 .menu-toggle-fullscreen {
-  @apply fixed top-0 right-0 flex justify-center items-center bg-barely-blue h-20 w-16 md:w-20 z-50;
+  @apply fixed top-0 right-0 flex justify-center items-center bg-dark h-20 w-16 md:w-20 z-50;
 }
 
 /* Styles for Fullscreen nav */
 
 .nav-container--fullscreen {
-  @apply fixed top-0 bottom-0 left-0 right-0 bg-ebony h-screen w-screen z-40 flex justify-center items-center;
+  @apply fixed top-0 bottom-0 left-0 right-0 bg-text h-screen w-screen z-40 flex justify-center items-center;
 
   .main-nav {
     @apply max-w-full h-screen md:h-auto pl-10 pr-6 pt-14;
@@ -23,6 +23,6 @@
     @apply m-0 p-0;
   }
   .sub-nav__link {
-    @apply text-base block text-white hover:text-barely-blue hover:no-underline py-2 pr-2 mr-7 font-normal;
+    @apply text-base block text-white hover:text-dark hover:no-underline py-2 pr-2 mr-7 font-normal;
   }
 }
