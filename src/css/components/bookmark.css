@@ -1,0 +1,10 @@
+.bookmark {
+  @apply relative bg-white mt-7 mb-5 py-4 pr-6 pl-12 w-full sm:w-3/4 xl:w-1/2 rounded-r-lg;
+
+  &:before {
+    @apply block absolute left-6 bg-gold;
+    content: '';
+    width: 2px;
+    height: calc(100% - 2rem);
+  }
+}

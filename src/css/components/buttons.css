@@ -1,7 +1,11 @@
-
 .button {
-  @apply block  px-5 py-2 font-headers text-dark rounded-3xl max-w-max transition-colors duration-300 ease-in-out bg-accent hover:bg-dark hover:text-white no-underline;
+  @apply flex items-center px-5 py-3 font-headers text-white rounded-md max-w-max transition-colors duration-300 ease-in-out bg-accent hover:bg-accent-light no-underline;
+
+  .icon {
+    @apply w-4 h-3 block ml-3;
+  }
 }
-.close-button {
-  @apply block px-2 py-0 ml-auto  font-bold border border-dark;
+.icon-arrow,
+.icon-external {
+  @apply fill-gold group-hover:fill-white transition-colors duration-300;
 }

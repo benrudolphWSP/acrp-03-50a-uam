@@ -5,10 +5,10 @@
 
   /* The actual timeline (the vertical ruler) */
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 6px;
-    background-color: var(--color-lines);
+    background-color: var(--color-gold);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -38,7 +38,7 @@
 
     /* The circles on the timeline */
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 2.5rem;
       height: 2.5rem;
@@ -63,7 +63,7 @@
 
   /* Add arrows to the left container (pointing right) */
   &__container:nth-child(even)::before {
-    content: " ";
+    content: ' ';
     height: 0;
     position: absolute;
     top: 22px;
@@ -77,7 +77,7 @@
 
   /* Add arrows to the right container (pointing left) */
   &__container:nth-child(odd)::before {
-    content: " ";
+    content: ' ';
     height: 0;
     position: absolute;
     top: 22px;
@@ -118,7 +118,7 @@
     &__container:nth-child(even)::before,
     &__container:nth-child(odd)::before {
       left: 60px;
-      border: medium solid var(--color-lines);
+      border: medium solid var(--color-gold);
       border-width: 10px 10px 10px 0;
       border-color: transparent var(--color-dark-links) transparent transparent;
     }
@@ -135,7 +135,7 @@
     }
 
     &__date {
-      margin-left:0.625rem;
+      margin-left: 0.625rem;
     }
     &__container:nth-child(even) &__date {
       text-align: left;

@@ -1,9 +1,9 @@
 links:
   - socialname: facebook
     url: https://www.facebook.com
-    icon: flat
-    iconcolor: fill-primary
+    icon: circle
+    iconcolor: fill-white
   - socialname: twitter
     url: http://www.twitter.com
-    icon: flat
-    iconcolor: fill-primary
+    icon: circle
+    iconcolor: fill-white

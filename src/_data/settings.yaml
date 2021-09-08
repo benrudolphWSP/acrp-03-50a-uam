@@ -1,11 +1,8 @@
-name: NEWT Starter Kit
-headercolor: bg-light
-logo: /images/newt_logo.png
-alttext: Newt Site Starter Kit
+name: Lone Tree Overpass Project
+headersocial: true
+headercolor: bg-white
+logo: /images/logo-city-of-lonetree.svg
+alttext: CIty of Flagstaff, AZ
 logourl: /
-copyright: null
-author: Ben Rudolph
-footerlogo: null
-footerlogoalttext: null
-footerlogourl: null
-copyurl: null
+leftimage: /images/image-20201205-190633-5e51f64d-1@0.5x.jpg
+rightimage: /images/DSC_0023-1@0.5x.jpg

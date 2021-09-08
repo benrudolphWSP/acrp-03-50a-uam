@@ -1,30 +1,30 @@
 .hero {
-  @apply flex items-center;
-  height: 12.5rem;
-  position: relative;
-  overflow: hidden;
-  background-size: cover;
+  @apply grid max-w-screen-2xl mx-auto mb-12;
+  grid-template: 'hero-left' 'hero-right' / 1fr;
 
-  @media (min-width: 64rem) {
-    height: 18.75rem;
-  }
-
-  @media (min-width: 80rem) {
-    height: 21.75rem;
-  }
-
-}
-.hero-title {
-  padding: 0 1.5rem;
-  width: 100%;
-  max-width: 100%;
-  max-height: 13.25rem;
-  @apply text-center leading-none m-0;
-
-  img {
-    width: 100%;
-    max-width: 73.75rem;
-    margin: 0 auto;
+  @screen md {
+    grid-template: 'hero-left hero-right' / 1fr 1fr;
   }
 }
 
+.hero__left {
+  @apply bg-left-top bg-no-repeat overflow-auto;
+  grid-area: hero-left;
+
+  @screen sm {
+    min-height: 150px;
+  }
+
+  @screen md {
+    min-height: 350px;
+  }
+
+  @screen lg {
+    min-height: 550px;
+  }
+}
+
+.hero__right {
+  @apply grid bg-secondary;
+  grid-area: hero-right;
+}

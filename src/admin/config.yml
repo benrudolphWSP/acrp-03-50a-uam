@@ -31,8 +31,8 @@ collections:
     fields:
       - { label: 'Page Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: "Tags", name: "tags", widget: "hidden", default: "news" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "posts" }
+      - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'news' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'posts' }
   - label: 'Site Pages'
     name: 'pages'
     files:
@@ -48,17 +48,28 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: Show Hero, name: hero, widget: boolean }
-          - { label: Hero Title, name: herotitle, required: false,widget: string }
-          - { label: Hero Background Image, name: herobackground, required: false,widget: image }
+          - {
+              label: Hero Title,
+              name: herotitle,
+              required: false,
+              widget: string,
+            }
+          - {
+              label: Hero Background Image,
+              name: herobackground,
+              required: false,
+              widget: image,
+            }
           - label: Hero Background Color
             name: herocolor
             required: false
-            widget: select 
-            options: ["bg-white","bg-primary","bg-secondary","bg-accent","bg-dark"]
+            widget: select
+            options:
+              ['bg-white', 'bg-primary', 'bg-secondary', 'bg-accent', 'bg-dark']
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Accordions'
-        name: 'accordions'
-        file: 'src/accordions.md'
+      - label: 'About'
+        name: 'about'
+        file: 'src/about.md'
         fields:
           - {
               label: Layout,
@@ -68,34 +79,54 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Gallery'
-        name: 'gallery'
-        file: 'src/gallery.md'
+      - label: 'Get Engaged'
+        name: 'get-engaged'
+        file: 'src/get-engaged.md'
         fields:
           - {
               label: Layout,
               name: layout,
               widget: hidden,
-              default: 'gallery.html',
+              default: 'child.html',
             }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Public Involvement'
+        name: 'public-involvement'
+        file: 'src/public-involvement.md'
+        fields:
           - {
-              label: 'Gallery',
-              name: 'galleryImages',
-              widget: 'list',
-              fields:
-                [
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'Alt', name: 'altText', widget: 'text' },
-                  {
-                    label: 'Caption',
-                    name: 'caption',
-                    widget: 'text',
-                    required: false,
-                  },
-                ],
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: 'child.html',
             }
+          - { label: Title, name: title, widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Virtual Public Meeting'
+        name: 'virtual-public-meeting'
+        file: 'src/virtual-public-meeting.md'
+        fields:
+          - {
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: 'child.html',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'FAQs'
+        name: 'faqs'
+        file: 'src/faqs.md'
+        fields:
+          - {
+              label: Layout,
+              name: layout,
+              widget: hidden,
+              default: 'child.html',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Settings'
     name: 'settings'
     editor:
@@ -106,20 +137,49 @@ collections:
         file: 'src/_data/settings.yaml'
         fields:
           - { label: 'Site name', name: name, widget: string }
+          - {
+              label: 'Show Social Links in Header',
+              name: headersocial,
+              widget: boolean,
+            }
           - label: Header Color
             name: headercolor
             required: false
-            widget: select 
-            options: ["bg-white","bg-primary","bg-secondary","bg-accent","bg-dark","bg-light"]
+            widget: select
+            options:
+              [
+                'bg-white',
+                'bg-primary',
+                'bg-secondary',
+                'bg-accent',
+                'bg-dark',
+                'bg-light',
+              ]
           - { label: 'Logo', name: logo, required: false, widget: image }
-          - { label: 'Logo Alt Text', name: alttext, required: false, widget: string }
-          - { label: 'Logo Url', name: logourl, required: false, widget: string }
-          - { label: 'Copyright name', name: copyright, required: false, widget: string }
-          - { label: 'Author', name: author, required: false, widget: string }
-          - { label: 'Copyright URL', name: url, required: false, widget: string }
-          - { label: 'Footer Logo', name: footerlogo, required: false, widget: image }
-          - { label: 'Footer Logo alt', name: footerlogoalttext, required: false, widget: string }
-          - { label: 'Footer Logo URL', name: footerlogourl, required: false, widget: string }
+          - {
+              label: 'Logo Alt Text',
+              name: alttext,
+              required: false,
+              widget: string,
+            }
+          - {
+              label: 'Logo Url',
+              name: logourl,
+              required: false,
+              widget: string,
+            }
+          - {
+              label: 'Header Image Left',
+              name: leftimage,
+              required: false,
+              widget: image,
+            }
+          - {
+              label: 'Header Image Right',
+              name: rightimage,
+              required: false,
+              widget: image,
+            }
       - label: 'Navigation'
         name: 'items'
         file: 'src/_data/navigation.yaml'
@@ -140,6 +200,54 @@ collections:
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
+      - label: 'Footer'
+        name: 'footeritems'
+        file: 'src/_data/footer.yaml'
+        fields:
+          - { label: 'Show Social Links', name: footersocial, widget: boolean }
+          - label: Footer Color
+            name: footercolor
+            required: false
+            widget: select
+            options:
+              [
+                'bg-white',
+                'bg-primary',
+                'bg-secondary',
+                'bg-accent',
+                'bg-dark',
+                'bg-light',
+              ]
+          - {
+              label: 'Copyright name',
+              name: copyright,
+              required: false,
+              widget: string,
+            }
+          - {
+              label: 'Copyright URL',
+              name: url,
+              required: false,
+              widget: string,
+            }
+          - {
+              label: 'Footer Logo',
+              name: footerlogo,
+              required: false,
+              widget: image,
+            }
+          - {
+              label: 'Footer Logo alt',
+              name: footerlogoalttext,
+              required: false,
+              widget: string,
+            }
+          - {
+              label: 'Footer Logo URL',
+              name: footerlogourl,
+              required: false,
+              widget: string,
+            }
       - label: 'Social'
         name: 'links'
         file: 'src/_data/social.yaml'
@@ -151,27 +259,41 @@ collections:
             collapsed: false
             fields:
               - label: Social Channel
-                name: socialname 
+                name: socialname
                 widget: select
                 options:
-                  - { label: "Facebook", value: "facebook" }
-                  - { label: "Twitter", value: "twitter" }
-                  - { label: "YouTube", value: "youtube" }
-                  - { label: "Instagram", value: "instagram" }
-                  - { label: "Vimeo", value: "vimeo" }
-                  - { label: "Pinterest", value: "pinterest" }
+                  - { label: 'Facebook', value: 'facebook' }
+                  - { label: 'Twitter', value: 'twitter' }
+                  - { label: 'YouTube', value: 'youtube' }
+                  - { label: 'Instagram', value: 'instagram' }
+                  - { label: 'Vimeo', value: 'vimeo' }
+                  - { label: 'Pinterest', value: 'pinterest' }
               - { label: URL, name: url, widget: string }
               - label: Icon
-                name: icon 
+                name: icon
                 widget: select
                 options:
-                  - { label: "Flat", value: "flat" }
-                  - { label: "Circle", value: "circle" }
+                  - { label: 'Flat', value: 'flat' }
+                  - { label: 'Circle', value: 'circle' }
+              - {
+                  label: Alt text,
+                  name: alttext,
+                  required: false,
+                  widget: string,
+                }
               - label: Icon Color
                 name: iconcolor
                 required: false
-                widget: select 
-                options: ["fill-white","fill-primary","fill-secondary","fill-accent","fill-dark","fill-light"]
+                widget: select
+                options:
+                  [
+                    'fill-white',
+                    'fill-primary',
+                    'fill-secondary',
+                    'fill-accent',
+                    'fill-dark',
+                    'fill-light',
+                  ]
       - label: 'Weglot'
         name: 'weglot'
         file: 'src/_data/weglot.yaml'
@@ -192,4 +314,3 @@ collections:
             fields:
               - { label: Show, name: show, widget: string }
               - { label: Analytics Code, name: api, widget: string }
-

@@ -8,20 +8,30 @@ module.exports = {
   },
   theme: {
     colors: {
-      primary: 'var(--color-primary)',
+      primary: {
+        DEFAULT: 'var(--color-primary)',
+        dark: 'var(--color-primary-dark)',
+      },
       secondary: 'var(--color-secondary)',
-      accent: 'var(--color-accent)',
+      accent: {
+        DEFAULT: 'var(--color-accent)',
+        light: 'var(--color-accent-light)',
+      },
       text: 'var(--color-text)',
       links: 'var(--color-links)',
+      gold: 'var(--color-gold)',
       dark: 'var(--color-dark-gray)',
       light: 'var(--color-light-gray)',
       gray: 'var(--color-gray)',
+      error: 'var(--color-error)',
       white: 'var(--color-white)',
+      black: 'var(--color-black)',
       transparent: 'transparent',
     },
     fontFamily: {
-      headers: ['Source Sans Pro', 'sans-serif'],
-      copy: ['Source Sans Pro', 'sans-serif'],
+      headers: ['Usual', 'sans-serif'],
+      smallHeaders: ['Open Sans', 'sans-serif'],
+      copy: ['Open Sans', 'sans-serif'],
     },
     extend: {
       fill: (theme) => ({
@@ -29,6 +39,9 @@ module.exports = {
         primary: theme('colors.primary'),
         secondary: theme('colors.secondary'),
         accent: theme('colors.accent'),
+        text: theme('colors.text'),
+        links: theme('colors.links'),
+        gold: theme('colors.gold'),
         dark: theme('colors.dark'),
         light: theme('colors.light'),
         gray: theme('colors.gray'),
@@ -78,5 +91,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
   ],
 };

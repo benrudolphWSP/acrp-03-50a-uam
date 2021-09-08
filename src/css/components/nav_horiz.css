@@ -1,21 +1,21 @@
 .menu-toggle-fullscreen {
-  @apply fixed top-0 right-0 flex justify-center items-center bg-dark h-20 w-16 md:w-20 z-50;
+  @apply fixed top-0 right-0 flex justify-center items-center bg-secondary  w-16 md:w-20 z-50;
 }
 
 /* Style for Horizontal Nav */
 .nav-container--horiz {
-  @apply py-6 md:py-12;
+  @apply bg-white bg-opacity-5 lg:bg-transparent fixed top-0 lg:relative lg:top-auto pt-32 pb-8 px-5 lg:p-0 lg:mb-12 z-10 h-screen lg:h-auto w-full;
 
   .main-nav {
-    @apply md:flex justify-center;
+    @apply lg:flex justify-center space-y-1 lg:space-x-4 lg:space-y-0;
   }
 
   .main-nav__item {
-    @apply px-7 py-4 md:py-0;
+    @apply bg-primary hover:bg-primary-dark rounded-lg transition-colors duration-300;
   }
 
   .main-nav__link {
-    @apply block hover:text-white font-bold text-sm no-underline hover:underline uppercase;
+    @apply block text-white font-semibold text-lg no-underline font-headers py-4 px-8;
   }
 
   .main-nav__link[aria-current] {
