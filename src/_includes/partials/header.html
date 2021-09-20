@@ -1,91 +1,25 @@
 <header class="main-header {% if settings.headercolor %}{{settings.headercolor}}{% endif %}">
   {# Logo #}
-  <div class="social-toggle-container">
-    <p class="site-title mobile">{{settings.name}}</p>
-    <div class="menu-toggle-fullscreen {% if navigation.horizontalnav == true %}lg:hidden{% endif %}">
-      <button
-      class="nav-mobile__toggle hamburger hamburger--spin"
-      aria-controls="mainNav"
-      aria-label="Site Menu"
-      id="mobileNavToggle">
-        <span class="nav-mobile__toggle-text sr-only">Menu</span>
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-    </div>
-    {% if settings.headersocial == true %}
-      <ul class="social-nav">
-        {% for item in social.links %}
-          <li class="mx-3">
-            {% if item.socialname == "facebook" and item.icon == "flat" %}
-              <a href="{{item.url}}" target="_blank">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="28" viewBox="0 0 16 28">
-                  <title>facebook</title>
-                  <path class="{{ item.iconcolor }}" d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z"></path>
-                </svg>
-                <span class="sr-only">(Opens in a new window)</span>
-              </a>
-            {% endif %}
-            {% if item.socialname == "facebook" and item.icon == "circle" %}
-              <a href="{{item.url}}" target="_blank">
-                <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-                  <path class="{{ item.iconcolor }}" d="M14.6248 0.418701C11.7561 0.418701 8.95195 1.26934 6.56679 2.86306C4.18162 4.45678 2.32262 6.72199 1.22484 9.37224C0.127073 12.0225 -0.160154 14.9388 0.399485 17.7523C0.959124 20.5658 2.34049 23.1501 4.36891 25.1785C6.39733 27.2069 8.98168 28.5883 11.7952 29.148C14.6087 29.7076 17.5249 29.4204 20.1752 28.3226C22.8254 27.2248 25.0907 25.3658 26.6844 22.9806C28.2781 20.5955 29.1287 17.7913 29.1287 14.9227C29.1225 11.0779 27.5924 7.39238 24.8737 4.67371C22.1551 1.95504 18.4695 0.424945 14.6248 0.418701ZM18.9894 15.0171H15.6164V24.0669H11.7442V15.0171H9.87556V12.0556H11.7442V10.1431C11.7442 7.52902 12.8708 5.97406 15.9436 5.97406H19.4853V9.17842H16.5946C15.7345 9.17842 15.6299 9.62703 15.6299 10.4602V12.0657H19.5089L18.9894 15.0171Z"/>
-                </svg>
-                <span class="sr-only">(Opens in a new window)</span>
-              </a>
-            {% endif %}
-            {% if item.socialname == "twitter" and item.icon == "flat" %}
-              <a href="{{item.url}}" target="_blank">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28">
-                  <title>twitter</title>
-                  <path class="{{ item.iconcolor }}" d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"></path>
-                </svg>
-                <span class="sr-only">(Opens in a new window)</span>
-              </a>
-            {% endif %}
-            {% if item.socialname == "twitter" and item.icon == "circle" %}
-              <a href="{{item.url}}" target="_blank">
-                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="{{ item.iconcolor }}" d="M14.5405 0.637939C11.6719 0.637939 8.86767 1.48858 6.4825 3.0823C4.09733 4.67601 2.23833 6.94122 1.14055 9.59148C0.0427834 12.2417 -0.244444 15.158 0.315195 17.9715C0.874834 20.785 2.2562 23.3693 4.28462 25.3978C6.31304 27.4262 8.8974 28.8075 11.7109 29.3672C14.5244 29.9268 17.4406 29.6396 20.0909 28.5418C22.7412 27.444 25.0064 25.585 26.6001 23.1999C28.1938 20.8147 29.0444 18.0105 29.0444 15.1419C29.0364 11.2977 27.5058 7.6132 24.7875 4.89491C22.0692 2.17663 18.3847 0.64596 14.5405 0.637939ZM22.0016 11.9038C22.0016 12.059 22.0016 12.2175 22.0016 12.3727C22.0016 17.1623 18.3554 22.6873 11.6903 22.6873C9.71941 22.689 7.78969 22.1235 6.13155 21.0582C8.04827 21.2846 9.9769 20.7452 11.498 19.5572C10.7443 19.5392 10.0148 19.2874 9.41051 18.8366C8.8062 18.3858 8.35698 17.7583 8.125 17.0409C8.34751 17.0823 8.57327 17.1038 8.7996 17.105C9.12212 17.1057 9.44325 17.0626 9.75416 16.9768C8.93362 16.811 8.19575 16.3663 7.66578 15.7183C7.13581 15.0702 6.84638 14.2588 6.84662 13.4217V13.3778C7.35011 13.6578 7.91345 13.8128 8.48928 13.8298C7.72057 13.3188 7.17614 12.5335 6.96735 11.6344C6.75856 10.7352 6.90119 9.79032 7.36607 8.9929C8.27684 10.1135 9.41346 11.0297 10.7019 11.6818C11.9903 12.3338 13.4017 12.7072 14.844 12.7774C14.7815 12.5075 14.7499 12.2314 14.7496 11.9544C14.7486 11.227 14.9664 10.516 15.3747 9.91401C15.7831 9.31199 16.363 8.84669 17.0393 8.5786C17.7155 8.31051 18.4567 8.25201 19.1666 8.41071C19.8766 8.56941 20.5223 8.93797 21.02 9.46849C21.8314 9.31011 22.6095 9.01347 23.3204 8.59151C23.0512 9.43081 22.4851 10.1431 21.7284 10.5951C22.4463 10.51 23.1476 10.3191 23.8095 10.0284C23.3233 10.7562 22.711 11.3913 22.0016 11.9038Z"/>
-                </svg>
-                <span class="sr-only">(Opens in a new window)</span>
-              </a>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
+  <div class="relative logo">
+    <a href="{{settings.logourl}}" class="site-name">
+      {% if settings.logo %}
+        <img class="" src="{{settings.logo}}" alt="{{settings.alttext}}"/>
+      {% else %}
+        {{settings.name}}
+      {% endif %}
+    </a>
   </div>
-  <div class="main-header__container">
-    <div class="main-header__left">
-      <img alt src="{{settings.leftimage}}" class="lg:h-full object-center object-cover"/>
-    </div>
-    <div class="lg:max-w-xl">
-      {% if path != "home" %}
-        {% if settings.logo %}
-          <a href="{{settings.logourl}}" class="site-logo">
-            <img class="" src="{{settings.logo}}" alt="{{settings.alttext}}"/>
-            <span class="sr-only">Home</span>
-          </a>
-        {% endif %}
-      {% endif %}
-      {% if path == "home" %}
-        {% if settings.logo %}
-          <div class="site-logo">
-            <img src="{{settings.logo}}" alt="{{settings.alttext}}"/>
-            <span class="sr-only">Home</span>
-          </div>
-        {% endif %}
-      {% endif %}
-      <p class="site-title">{{settings.name}}</p>
-      {% if path == "home" %}
-        <p class="text-lg font-semibold px-4">Study Improving mobility and safety with a new connection between Lone Tree Avenue and Butler Avenue to the south, and a new connection at US 66 to the north.</p>
-      {% endif %}
-    </div>
-    <div class="main-header__right">
-      <img src="{{settings.rightimage}}" class="h-full object-center object-cover"/>
-    </div>
+  <div class="menu-toggle-fullscreen {% if navigation.dropdownnav == true %}hidden{% endif %} {% if navigation.horizontalnav == true %}md:hidden{% endif %}">
+    <button
+    class="nav-mobile__toggle hamburger hamburger--spin"
+    aria-controls="mainNav"
+    aria-label="Site Menu"
+    id="mobileNavToggle">
+      <span class="nav-mobile__toggle-text sr-only">Menu</span>
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
   </div>
   {% if navigation.fullscreennav == true %}
     {# Hamburger Menu #}
@@ -108,14 +42,13 @@
   {% endif %}
   {# Dropdown Nav #}
   {% if navigation.dropdownnav == true %}
-    <div class="relative bg-white w-full md:w-72 rounded" data-nav="dropdown">
-      <div class="h-12 md:h-full">
-        <!--Toggle button (hidden on large screens)-->
-        <button aria-expanded="false" class="flex justify-between w-full h-full menu-toggle" aria-label="Menu">
+    <div class="dropdown-nav" data-nav="dropdown">
+      <div class="h-12">
+        <!--Toggle button -->
+        <button aria-expanded="false" class="menu-toggle" aria-label="Menu">
           <span class="self-center flex ml-4 font-headers">
-            <img src="/images/hamburger_menu.svg" alt="" class="self-center mr-5"/>
-        Site Menu
-      </span>
+            Site Menu
+          </span>
           <span class="flex items-center bg-light-dark px-2 self-stretch rounded-br rounded-tr w-12 place-self-end">
             <svg
           class="fill-current h-4 w-4 mx-auto transition transform"
@@ -129,25 +62,7 @@
         <nav>
           <!--Menu-->
           <div class="dropdown-menu main-nav" hidden>
-            {% if navigation.items %}
-              <ul class="">
-                {% for item in navigation.items %}
-                  {% if item.url == '/the-complete-plan' %}
-                    <li class="dropdown-menu__item">
-                      <a class="text-ml flex justify-between text-white no-underline text hover:text-white py-4 px-4 hover:bg-dark" href="{{ item.url }}">{{ item.text }}
-                        <svg class="fill-white group-hover:fill-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M14 17H4V19H14V17ZM20 9H4V11H20V9ZM4 15H20V13H4V15ZM4 5V7H20V5H4Z"></path>
-                        </svg>
-                      </a>
-                    </li>
-                  {% else %}
-                    <li class="dropdown-menu__item">
-                      <a class="text-ml block text-dark no-underline text hover:text-white py-4 px-4" href="{{ item.url }}">{{ item.text }}</a>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            {% endif %}
+            {{ collections.all | eleventyNavigation("Home") | eleventyNavigationToHtml({ listItemClass: "dropdown-menu__item", anchorClass: "dropdown-menu__link"}) | safe }}
           </div>
         </nav>
       </div>
@@ -157,17 +72,17 @@
   {# Horizontal Nav #}
   {% if navigation.horizontalnav == true %}
     <nav id="mainNav" class="nav-container--horiz" data-nav="horizontal">
-      {{ collections.all | eleventyNavigation("Home") | eleventyNavigationToHtml({listClass: "main-nav", listItemClass: "main-nav__item", anchorClass: "main-nav__link"}) | safe }}
+      {{ collections.all | eleventyNavigation("Home") | eleventyNavigationToHtml({listClass: "main-nav", listItemClass: "main-nav__item", anchorClass: "sub-nav__link"}) | safe }}
     </nav>
   {% endif %}
-  {% if navigation.breadcrumbs == true %}
+  {% if path != "home" and navigation.breadcrumbs == true %}
     {% set breadcrumbs = collections.all | eleventyNavigationBreadcrumb("Home")%}
     {# Breadcrumbs #}
     <nav aria-label="site breadcrumbs">
       <ul class="breadcrumbs">
         <li>
           <span class="sr-only">You are here:</span>
-          <a class="text-white hover:underline" href="/">Home</a>
+          <a class="text-links hover:underline" href="/">Home</a>
           <span class="mx-3">></span>
         </li>
         <li>{{ elventyNavigation.key or title }}</li>

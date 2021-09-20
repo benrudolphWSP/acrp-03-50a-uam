@@ -1,11 +1,10 @@
 .card {
-  @apply relative bg-white p-5 border;
+  @apply relative bg-white p-5 border-2;
 }
 .card--hover {
-  @apply  hover:bg-light transition-colors duration-300;
+  @apply hover:border-secondary transition-colors duration-300;
 }
 .card__title {
-
 }
 .card__content {
   @apply text-text;
@@ -14,6 +13,6 @@
   @apply no-underline text-text font-medium text-lg;
 }
 .card__link::before {
-  content:'';
+  content: '';
   @apply absolute w-full h-full top-0 left-0;
 }

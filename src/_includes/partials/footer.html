@@ -1,14 +1,5 @@
-<footer class="main-footer {% if footer.footercolor %}{{footer.footercolor}}{% endif %}">
-  <div class="text-center pb-4">
-    <small class="text-white"
-        > &copy; <span id="year"></span>
-      <a href="{{footer.copyurl}}" rel="noopener" target="_blank"  class="text-white no-underline"
-          >{{footer.copyright}}
-        <span class="sr-only">(Open in a new window)</span></a
-        >
-    </small>
-  </div>
-  {% if footer.footersocial == true %}
+<footer class="main-footer">
+  {% if footer.footersocial == 'true' %}
     <ul class="flex justify-center">
       {% for item in social.links %}
         <li class="mx-3">
@@ -47,14 +38,23 @@
     {% endfor %}
   </ul>
 {% endif %}
-{% if footer.icon %}
-  <a href="{{footer.iconurl}}" class="inline-block" target="_blank">
+{% if settings.icon %}
+  <a href="{{settings.iconurl}}" class="inline-block" target="_blank">
     <img
       src="{{footer.icon}}"
       alt="{{footer.alttext}}"/>
     <span class="sr-only">(Opens in a new window)</span>
   </a>
 {% endif %}
+<div class="bg-footer-gray text-center py-6 px-8">
+  <small class="text-gray-500"
+      > &copy; <span id="year"></span>
+    <a href="{{settings.copyurl}}" rel="noopener" target="_blank"  class="text-off-black underline"
+        >{{settings.name}}
+      <span class="sr-only">(Open in a new window)</span></a
+      >
+  </small>
+</div>
 </footer>
 <script>
 document

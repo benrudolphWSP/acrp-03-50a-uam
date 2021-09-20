@@ -10,17 +10,17 @@
     {% endif %}
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/include/css/main.css"/>
-    <link rel="stylesheet" href="https://use.typekit.net/ltf3bit.css">
-    {# <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> #}
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   </head>
   <body class="{{path}}">
-    <!--#include virtual="~/include/header.aspx" -->
-    {# {% include "./partials/header.html" %} #}
+    {% include "./partials/header.html" %}
     {{ content | safe }}
-    {# {% include "./partials/footer.html" %} #}
-    <!--#include virtual="~/include/footer.aspx" -->
+    {% include "./partials/footer.html" %}
     <script src="/include/js/main.js"></script>
   </body>
 </html>

@@ -10,6 +10,27 @@
   @apply w-full;
 }
 
+.swiper-slide {
+  visibility: hidden;
+}
+.swiper-slide.swiper-slide-active {
+  visibility: visible;
+}
+.swiper-slide__text {
+  @apply flex flex-col pb-8 pt-8;
+  flex: 1 0 42%;
+
+  .next-slide {
+    @apply block uppercase ml-auto mt-auto text-sm no-underline;
+  }
+}
+.swiper-slide__title {
+  @apply text-xl font-normal uppercase !important;
+}
+.swiper-slide__media {
+  flex: 1 0 58%;
+}
+
 .swiper-button-next:after,
 .swiper-button-prev:after {
   @apply drop-shadow-lg;

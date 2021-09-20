@@ -3,5 +3,14 @@ layout: default
 ---
 
 <main class="max-w-full p-0 mb-0">
-  {{ content | safe }}
+  {% if hero == true %}
+    <div class="hero {% if herocolor %} {{herocolor}} {% endif %}" style="{% if herobackground %} background-image:url({{herobackground}}}); {% endif %}">
+      <h1 class="hero-title">
+        {{herotitle}}
+      </h1>
+    </div>
+  {% endif %}
+  <div class="home-content">
+    {{ content | safe }}
+  </div>
 </main>

@@ -1,18 +1,34 @@
 import './polyfills.js';
-// import Promise from "promise-polyfill";
 import whatInput from 'what-input';
 import SuperSimpleAccordions from './Components/Accordion.js';
-// import ShowHide from "./Components/ShowHide.js";
-// import PageTabs from "./Components/Tabs";
-// import { flipListen } from "./Components/FlipCards";
-// import { dataListen, initElements } from "./Components/ToggleData";
-// import { menuListen } from "./Components/DropdownNav";
-// import ModalVideo from "modal-video";
-import Swiper, { Navigation, A11y, Keyboard } from "swiper";
+import ShowHide from './Components/ShowHide.js';
+import PageTabs from './Components/Tabs';
+import { flipListen } from './Components/FlipCards';
+import { dataListen, initElements } from './Components/ToggleData';
+import { menuListen } from './Components/DropdownNav';
+import ModalVideo from 'modal-video';
+import ExternaLinks from './Components/ExternalLinks';
+import Swiper, { Navigation, A11y, Keyboard } from 'swiper';
 Swiper.use([Navigation, A11y, Keyboard]);
-import SidebarToggle from './Components/NavSidebar';
+import MicroModal from 'micromodal';
+
+
+// Main Menu
+if (document.querySelector("[data-nav='dropdown']")) {
+  menuListen();
+}
+
+// Fullscreen Navigation setup
+if (document.querySelector("[data-nav='fullscreen']")) {
+  SidebarToggle.setup();
+}
 
 document.addEventListener('DOMContentLoaded', function () {
+
+  if (document.querySelector('#modal-1')) {
+    MicroModal.init();
+  }
+
   if (document.querySelector('.accordion')) {
     const accordions = new SuperSimpleAccordions('.accordion', {
       iconsClass: 'arrow',
@@ -22,9 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Fullscreen Navigation setup
-  if (document.querySelector("[data-nav='horizontal']")) {
-    SidebarToggle.setup();
+  if (document.querySelector("[target='_blank']")) {
+    ExternaLinks('[target="_blank"]');
   }
 
   // Home page tabs setup
@@ -32,29 +47,24 @@ document.addEventListener('DOMContentLoaded', function () {
     PageTabs();
   }
 
-  // // Main Menu
-  // if (document.querySelector("[data-nav='dropdown']")) {
-  //   menuListen();
-  // }
+  // Find show hide elements, if found run setup
+  if (document.querySelector('.show-hide__toggle')) {
+    ShowHide.setElelements();
+  }
 
-  // // Find show hide elements, if found run setup
-  // if (document.querySelector(".show-hide__toggle")) {
-  //   ShowHide.setElelements();
-  // }
+  // Find cards that flip
+  if (document.querySelector('.details-card')) {
+    flipListen();
+  }
 
-  // // Find cards that flip
-  // if (document.querySelector(".details-card")) {
-  //   flipListen();
-  // }
-
-  // // Find data-year, if found run setup
-  // if (document.querySelector("[data-year]")) {
-  //   initElements();
-  //   dataListen();
-  // }
+  // Find data-year, if found run setup
+  if (document.querySelector('[data-year]')) {
+    initElements();
+    dataListen();
+  }
 
   //Swiper setup for home page
-  if (document.querySelector(".swiper")) {
+  if (document.querySelector('.swiper')) {
     let videoSwiper = new Swiper('.swiper', {
       slidesPerView: 1,
       keyboard: {
@@ -75,47 +85,47 @@ document.addEventListener('DOMContentLoaded', function () {
         containerRoleDescriptionMessage: 'slideshow',
       },
     });
-        // videoSwiper.on("init", function () {
-        //   videoSwiper.slides.forEach(function (slide) {
-        //     slide.setAttribute("tabindex", "0");
-        //   });
-        //   videoSwiper.slides.slice(1).forEach(function (slide) {
-        //     slide.setAttribute("tabindex", "-1");
-        //   });
-        // });
-        // videoSwiper.init();
-        // videoSwiper.on("slideChange", function () {
-        //   videoSwiper.slides.forEach(function (slide) {
-        //     slide.setAttribute("tabindex", "-1");
-        //   });
-        //   videoSwiper.slides[videoSwiper.activeIndex].setAttribute("tabindex", "0");
-        // });
+    videoSwiper.on('init', function () {
+      videoSwiper.slides.forEach(function (slide) {
+        slide.setAttribute('tabindex', '0');
+      });
+      videoSwiper.slides.slice(1).forEach(function (slide) {
+        slide.setAttribute('tabindex', '-1');
+      });
+    });
+    videoSwiper.init();
+    videoSwiper.on('slideChange', function () {
+      videoSwiper.slides.forEach(function (slide) {
+        slide.setAttribute('tabindex', '-1');
+      });
+      videoSwiper.slides[videoSwiper.activeIndex].setAttribute('tabindex', '0');
+    });
 
-  //   const clickHandler = function (event) {
-  //     if (!event.target.closest("[data-hash]")) return;
-  //     event.preventDefault();
+    const clickHandler = function (event) {
+      if (!event.target.closest('[data-hash]')) return;
+      event.preventDefault();
 
-  //     StopVideos();
-  //     let element = event.target.closest("[data-hash]");
-  //     let whichSlide = element.getAttribute("data-hash");
-  //     videoSwiper.slideTo(whichSlide);
-  //   };
-  //   document.addEventListener("click", clickHandler, false);
-  // };
-
-  // var modalTriggers = document.querySelectorAll(
-  //   "[data-video-id],[data-youtube-id]"
-  // );
-  // for (var i = 0; i < modalTriggers.length; i++) {
-  //   modalTriggers[i].addEventListener("click", function (e) {
-  //     e.preventDefault();
-  //   });
+      StopVideos();
+      let element = event.target.closest('[data-hash]');
+      let whichSlide = element.getAttribute('data-hash');
+      videoSwiper.slideTo(whichSlide);
+    };
+    document.addEventListener('click', clickHandler, false);
   }
 
-  // new ModalVideo("[data-video-id]", {
-  //   vimeo: {
-  //     byline: false,
-  //     title: false,
-  //   },
-  // });
+  var modalTriggers = document.querySelectorAll(
+    '[data-video-id],[data-youtube-id]'
+  );
+  for (var i = 0; i < modalTriggers.length; i++) {
+    modalTriggers[i].addEventListener('click', function (e) {
+      e.preventDefault();
+    });
+  }
+
+  new ModalVideo('[data-video-id]', {
+    vimeo: {
+      byline: false,
+      title: false,
+    },
+  });
 });

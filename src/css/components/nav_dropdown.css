@@ -1,12 +1,7 @@
-.menu-toggle-fullscreen {
-  @apply fixed top-0 right-0 flex justify-center items-center bg-dark h-20 w-16 md:w-20 z-50;
-}
-
 /* Styles for dropdown nav */
-nav {
-  position: relative;
-  perspective: 1000px;
-  z-index: 100;
+
+.dropdown-nav {
+  @apply relative bg-white w-full md:w-72 rounded ml-auto md:mr-4 z-10;
 }
 
 .dropdown-menu {
@@ -20,22 +15,19 @@ nav {
 }
 
 .dropdown-menu__item {
-  @apply font-headers transition duration-300 ease-in-out bg-white hover:bg-dark text-dark no-underline hover:text-white;
+  @apply font-headers transition duration-300 ease-in-out bg-white hover:bg-primary text-dark no-underline hover:text-white;
   position: relative;
 }
+.dropdown-menu__link {
+  @apply block p-2 no-underline hover:text-white;
+}
 
+.menu-toggle {
+  @apply flex justify-between w-full h-full;
+}
 .menu-toggle svg {
   transition: all 0.35s;
 }
 .menu-toggle[aria-expanded='true'] svg {
   transform: rotate(-180deg);
-}
-
-.arrow-right {
-  position: absolute;
-  left: 1.125rem;
-  transition: left 0.25s ease;
-}
-.home__nav-button:hover .arrow-right {
-  left: 86%;
 }

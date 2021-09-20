@@ -1,24 +1,8 @@
 .section-title {
-  @apply max-w-screen-md mx-auto text-accent text-center font-headers font-bold uppercase leading-none pb-5 lg:pb-10 border-b border-primary mb-6;
+  @apply max-w-screen-md mx-auto text-primary text-center font-headers font-bold uppercase leading-none pb-5 lg:pb-10 border-b border-accent mb-6;
   font-size: 2rem;
 }
 
 .main-content {
   @apply max-w-3xl mx-auto p-6;
-}
-
-/* For two columns lists */
-.two-column {
-  columns: 2;
-}
-
-.image-right {
-  float: right;
-  margin-bottom: 0.9375rem;
-  margin-left: 0.9375rem;
-}
-.image-left {
-  float: left;
-  margin-bottom: 0.9375rem;
-  margin-right: 0.9375rem;
 }

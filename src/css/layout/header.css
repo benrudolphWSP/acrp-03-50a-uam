@@ -1,47 +1,7 @@
 .main-header {
-  @apply max-w-full;
+  @apply max-w-full pb-5;
 
-  .site-logo {
-    @apply hidden lg:inline-block mb-6 mt-6 lg:mt-0 lg:mb-10;
+  .logo {
+    @apply w-72;
   }
-  .site-title {
-    @apply hidden lg:block text-accent font-headers font-extrabold leading-none uppercase mb-8;
-    font-size: 3.25rem;
-    font-size: clamp(38px, 5vw, 3.25rem);
-
-    &.mobile {
-      @apply block lg:hidden max-w-xs text-white py-5 pl-4 m-0 leading-none;
-      font-size: 0.875rem;
-    }
-  }
-  &__container {
-    @apply lg:flex lg:justify-between lg:items-center mx-auto text-center pt-8 lg:mb-10;
-  }
-  &__left {
-    @apply w-full lg:w-80 h-60 lg:mr-6 overflow-hidden lg:rounded-tr-2xl lg:rounded-br-2xl;
-
-    img {
-      margin-top: -8%;
-      @screen sm {
-        margin-top: -18%;
-      }
-      @screen md {
-        margin-top: -22%;
-      }
-      @screen lg {
-        margin-top: 0;
-      }
-    }
-  }
-  &__right {
-    @apply hidden lg:block w-80 h-60 ml-6 overflow-hidden rounded-tl-2xl rounded-bl-2xl;
-  }
-}
-
-.social-toggle-container {
-  @apply bg-secondary fixed top-0 lg:relative lg:top-auto lg:flex justify-between lg:justify-end w-full z-20;
-}
-
-.social-nav {
-  @apply flex justify-end py-3;
 }

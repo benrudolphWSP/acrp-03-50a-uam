@@ -1,5 +1,5 @@
-breadcrumbs: false
+breadcrumbs: true
 fullscreennav: false
-dropdownnav: false
-horizontalnav: true
+dropdownnav: true
+horizontalnav: false
 items: []

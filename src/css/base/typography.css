@@ -4,7 +4,7 @@ body {
 
 h1,
 .h1 {
-  @apply text-accent font-headers font-semibold uppercase leading-tight;
+  @apply text-primary font-headers font-semibold uppercase leading-tight mb-6;
   font-size: 2rem;
   font-size: clamp(1.75rem, 5vw, 2rem);
 }
@@ -51,4 +51,8 @@ a:hover {
 
 time {
   @apply text-gray text-sm uppercase;
+}
+
+::marker {
+  @apply text-primary text-lg;
 }
