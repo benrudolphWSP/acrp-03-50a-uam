@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NEWT</title>
+    
+    
+    <link rel="stylesheet" type="text/css" href="/include/css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  </head>
+  <body class="home">
+    <header class="main-header bg-accent">
+  
+  <div class="relative logo">
+    <a href="/" class="site-name">
+      
+        <img class="" src="/images/newt_logo.svg" alt="Newt Site Starter Kit"/>
+      
+    </a>
+  </div>
+  <div class="menu-toggle-fullscreen hidden ">
+    <button
+    class="nav-mobile__toggle hamburger hamburger--spin"
+    aria-controls="mainNav"
+    aria-label="Site Menu"
+    id="mobileNavToggle">
+      <span class="nav-mobile__toggle-text sr-only">Menu</span>
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+  
+  
+  
+    <div class="dropdown-nav" data-nav="dropdown">
+      <div class="h-12">
+        <!--Toggle button -->
+        <button aria-expanded="false" class="menu-toggle" aria-label="Menu">
+          <span class="self-center flex ml-4 font-headers">
+            Site Menu
+          </span>
+          <span class="flex items-center bg-light-dark px-2 self-stretch rounded-br rounded-tr w-12 place-self-end">
+            <svg
+          class="fill-current h-4 w-4 mx-auto transition transform"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20">
+              <path
+            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+            </svg>
+          </span>
+        </button>
+        <nav>
+          <!--Menu-->
+          <div class="dropdown-menu main-nav" hidden>
+            <ul><li class="dropdown-menu__item"><a href="/accordions/" class="dropdown-menu__link">Accordions</a></li>
+<li class="dropdown-menu__item"><a href="/flip-cards/" class="dropdown-menu__link">Flip Cards</a></li>
+<li class="dropdown-menu__item"><a href="/gallery/" class="dropdown-menu__link">Gallery</a></li>
+<li class="dropdown-menu__item"><a href="/modals/" class="dropdown-menu__link">Modal</a></li>
+<li class="dropdown-menu__item"><a href="/timeline/" class="dropdown-menu__link">Timeline</a></li>
+<li class="dropdown-menu__item"><a href="/typography/" class="dropdown-menu__link">Typography</a></li></ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    
+  
+  
+  
+  
+</header>
+
+    
+<main class="max-w-full p-0 mb-0">
+  
+    <div class="hero  bg-white " style="">
+      <h1 class="hero-title">
+        Newt Site Starter Kit
+      </h1>
+    </div>
+  
+  <div class="home-content">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+  <div class="card card--hover border-light rounded-md">
+    <div class="card__title"><h2>Accordions</h2></div>
+    <div class="card__content">
+      <p><a href="/accordions" class="card__link">View rendered cards and example markup.</a></p>
+    </div>
+  </div>
+  <div class="card card--hover border-light rounded-md">
+    <div class="card__title"><h2>Modals</h2></div>
+    <div class="card__content">
+      <p><a href="/modals" class="card__link">View rendered modals and example markup.</a></p>
+    </div>
+  </div>
+  <div class="card card--hover border-light rounded-md">
+    <div class="card__title"><h2>Timeline</h2></div>
+    <div class="card__content">
+      <p><a href="/accordions" class="card__link">View rendered timeline and example markup.</a></p>
+    </div>
+  </div>
+  <div class="card card--hover border-light rounded-md">
+    <div class="card__title"><h2>Typography</h2></div>
+    <div class="card__content">
+      <p><a href="/accordions" class="card__link">View typography and example markup.</a></p>
+    </div>
+  </div>
+  <div class="card card--hover border-light rounded-md">
+    <div class="card__title"><h2>Photo Slider</h2></div>
+    <div class="card__content">
+      <p><a href="/accordions" class="card__link">View rendered swiper slider and example markup.</a></p>
+    </div>
+  </div>
+  <div class="card card--hover border-light rounded-md">
+    <div class="card__title"><h2>Flip Cards</h2></div>
+    <div class="card__content">
+      <p><a href="/accordions" class="card__link">View rendered flip-cards and example markup.</a></p>
+    </div>
+  </div>
+</div>
+
+  </div>
+</main>
+
+    <footer class="main-footer">
+  
+
+<div class="bg-footer-gray text-center py-6 px-8">
+  <small class="text-gray-500"
+      > &copy; <span id="year"></span>
+    <a href="" rel="noopener" target="_blank"  class="text-off-black underline"
+        >NEWT Starter Kit
+      <span class="sr-only">(Open in a new window)</span></a
+      >
+  </small>
+</div>
+</footer>
+<script>
+document
+  .getElementById("year")
+  .innerHTML = new Date().getFullYear();
+</script>
+
+
+    <script src="/include/js/main.js"></script>
+  </body>
+</html>
