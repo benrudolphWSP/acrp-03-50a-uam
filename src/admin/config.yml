@@ -1,7 +1,13 @@
 backend:
+  name: github
+  repo: benrudolphWSP/acrp-03-50a-uam
+  branch: main # Branch to update (optional; defaults to master)
+  site_domain: delightful-flower-0e24e511e.azurestaticapps.net
+  base_url: delightful-flower-0e24e511e.azurestaticapps.net
+  auth_endpoint: api/auth # don't change, used for azure static webapp oauth authentication
   # Use netlify identity as backend
-  name: git-gateway
-  branch: main
+  # name: git-gateway
+  # branch: main
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
