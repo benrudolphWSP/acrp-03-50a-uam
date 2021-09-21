@@ -1,7 +1,7 @@
 {
-  "name": "newt-starter",
+  "name": "acrp-03-50a-uam",
   "version": "1.0.0",
-  "description": "Starter project that utilizes NetlifyCMS, Eleventy, Webpack and Tailwind CSS.",
+  "description": "Advanced Air Mobility (AAM) Airport Assessment Tool.",
   "keywords": [
     "Netlify",
     "Eleventy",
