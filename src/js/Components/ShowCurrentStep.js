@@ -24,5 +24,5 @@ export default function ShowCurrentStep() {
     }, 300);
   }
 
-
+  document.documentElement.scrollTop = 0;
 }
