@@ -1,4 +1,4 @@
-# 	![Newt start kit](/src/static/img/newt_logo.png)
+# 	ACRP 03-50A UAM Toolkit
 
 NetlifyCMS, Eleventy, Webpack and Tailwind (NEWT) static site starter kit.
 
@@ -29,6 +29,11 @@ npm run 11tydev
 This will run Eleventy (11ty), PostCSS CLI, Webpack and the Netlify proxy which is an express server to facilitate local development.
 
 Now open a browser and enter the following address: http://localhost:8080/admin. If it isn't obvious, http://localhost:8080/ is where your local site will be served up.
+
+
+## Deployment
+
+This project utilizes Azure Static Web Apps and Github actions to dynamically build the site and push to the test site. Once changes are pushed/merged to the main branch on Github, the build action is triggered.
 
 If the site has been moved to Teamsite it will most likely no longer need 11ty. So to run development locally without 11ty use:
 
