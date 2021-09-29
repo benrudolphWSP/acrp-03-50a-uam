@@ -3,7 +3,7 @@ backend:
   repo: benrudolphWSP/acrp-03-50a-uam
   branch: main # Branch to update (optional; defaults to master)
   site_domain: https://delightful-flower-0e24e511e.azurestaticapps.net
-  base_url: https://delightful-flower-0e24e511e.azurestaticapps.net
+  base_url: https://cmsazurefunc.azurewebsites.net
   auth_endpoint: api/auth # don't change, used for azure static webapp oauth authentication
   # Use netlify identity as backend
   # name: git-gateway
