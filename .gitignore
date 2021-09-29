@@ -1,4 +1,5 @@
 _tmp/
+_site/
 .DS_Store
 node_modules/
 .vscode/

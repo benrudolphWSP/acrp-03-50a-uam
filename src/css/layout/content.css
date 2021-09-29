@@ -47,7 +47,7 @@ body {
     grid-area: question;
 
     &::before {
-      @apply -top-2 left-0 absolute opacity-25 text-primary-light text-6xl leading-none;
+      @apply -top-2 left-0 absolute opacity-40 text-primary-light text-6xl leading-none;
       content: 'Q:';
     }
 
