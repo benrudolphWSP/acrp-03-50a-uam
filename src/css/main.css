@@ -1,14 +1,22 @@
 :root {
-  --color-primary: #5fb7fb;
-  --color-secondary: #232836;
-  --color-accent: #85cb33;
+  --color-primary: #457b9d;
+  --color-primary-light: #457b9d4f;
+  --color-primary-dark: #306485;
+  --color-secondary: #1d3557;
+  --color-accent: #e63946;
+  --color-accent-light: #ffafb6;
   --color-text: #222222;
-  --color-links: #0a6495;
+  --color-links: #1d3557;
+  --color-ocean: #a8dadc;
+  --color-orange: #ee7a0d;
+  --color-yellow: #e5d60b;
+  --color-green: #14cf1d;
   --color-gray: #9c9c9c;
   --color-light-gray: #e2e2e2;
   --color-dark-gray: #555358;
-  --color-error: #b81717;
-  --color-white: #ffffff;
+  --color-error: #e50b0b;
+  --color-white: #f1faee;
+  --color-real-white: #ffffff;
   --color-black: #000000;
 }
 
@@ -70,4 +78,39 @@ main ol {
   float: left;
   margin-bottom: 0.9375rem;
   margin-right: 0.9375rem;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+    height: 0;
+  }
+  .print-area,
+  .print-area * {
+    visibility: visible;
+    height: auto;
+  }
+  @page {
+    margin: 0.1cm 0.5cm 1cm;
+    font-size: 12pt !important;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
+  body {
+    zoom: 80%;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
+  .print-break {
+    page-break-before: always;
+    page-break-after: auto;
+  }
+
+  .no-print {
+    display: none;
+    visibility: hidden;
+    height: 0;
+  }
 }

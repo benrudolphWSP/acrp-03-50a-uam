@@ -1,4 +1,0 @@
-{
-    "layout": "posts",
-    "permalink": "news/{{ title | slugMore }}/index.html"
-}

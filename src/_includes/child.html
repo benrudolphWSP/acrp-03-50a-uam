@@ -3,10 +3,12 @@ layout: default
 ---
 
 <main id="mainContent" class="main-content">
-  <h1 class="section-title">
-    {{title}}
-  </h1>
-  <div class="max-w-screen-md mx-auto">
-    {{ content | safe }}
+  <div class=" max-w-7xl text-center mb-3 sm:mb-5">
+    <h1 class="section-title">
+      {{title}}
+    </h1>
+  </div>
+  <div class="main-content__container max-w-5xl">
+    <div class="lg:px-6 lg:py-8">{{ content | safe }}</div>
   </div>
 </main>

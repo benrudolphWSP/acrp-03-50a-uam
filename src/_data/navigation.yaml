@@ -2,4 +2,13 @@ breadcrumbs: true
 fullscreennav: false
 dropdownnav: true
 horizontalnav: false
-items: []
+items:
+  - text: Awareness
+    step: "1"
+    formid: classification-
+  - text: Readiness
+    step: "2"
+    formid: classification-
+  - text: Infrastructure
+    step: "3"
+    formid: classification-

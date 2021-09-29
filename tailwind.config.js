@@ -1,7 +1,7 @@
 module.exports = {
   // mode: "jit",
   purge: {
-    content: ['./**/*.html', './src/**/*.md', './**/*.aspx'],
+    content: ['./**/*.html', './src/**/*.md', './src/**/*.js', './**/*.aspx'],
     options: {
       safelist: [],
     },
@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     colors: {
       primary: {
+        light: 'var(--color-primary-light)',
         DEFAULT: 'var(--color-primary)',
         dark: 'var(--color-primary-dark)',
       },
@@ -19,12 +20,16 @@ module.exports = {
       },
       text: 'var(--color-text)',
       links: 'var(--color-links)',
-      gold: 'var(--color-gold)',
+      ocean: 'var(--color-ocean)',
+      orange: 'var(--color-orange)',
+      yellow: 'var(--color-yellow)',
+      green: 'var(--color-green)',
       dark: 'var(--color-dark-gray)',
       light: 'var(--color-light-gray)',
       gray: 'var(--color-gray)',
       error: 'var(--color-error)',
       white: 'var(--color-white)',
+      'real-white': 'var(--color-real-white)',
       black: 'var(--color-black)',
       transparent: 'transparent',
     },
@@ -71,6 +76,12 @@ module.exports = {
         cover: 'cover',
         contain: 'contain',
         bigger: '120%',
+      },
+      borderWidth: {
+        10: '0.625rem',
+        12: '0.75rem',
+        14: '0.875rem',
+        16: '1rem',
       },
     },
     animation: {

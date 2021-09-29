@@ -4,36 +4,37 @@
 @import './base/typography.css';
 
 /* Syntax highlighting */
-@import './base/syntax-highlighting.css';
+/* @import './base/syntax-highlighting.css'; */
 
 /* Component Styles */
 @import 'tailwindcss/components';
-@import './components/accordions.css';
+/* @import './components/accordions.css'; */
 @import './components/cards.css';
-@import './components/flip-cards.css';
+/* @import './components/flip-cards.css'; */
 @import './components/buttons.css';
 @import './components/forms.css';
-@import './components/nav_fullscreen.css';
+@import './components/table.css';
 @import './components/nav_dropdown.css';
-@import './components/nav_horiz.css';
+@import './components/progress_bar.css';
 @import './components/hero.css';
 @import './components/modal-video.css';
 @import './components/modals.css';
 @import './components/hamburgers.css';
 @import './components/breadcrumbs.css';
-@import './components/weglot.css';
+/* @import './components/weglot.css'; */
 
 /* Layout Styles */
 @import './layout/content.css';
+@import './layout/summary.css';
 @import './layout/home.css';
 @import './layout/header.css';
 @import './layout/footer.css';
 
 /* Vendor styles */
-@import 'swiper/swiper.min.css';
+/* @import 'swiper/swiper.min.css';
 @import 'swiper/modules/navigation/navigation.min.css';
 @import 'swiper/modules/a11y/a11y.min.css';
-@import './components/swiper.css';
+@import './components/swiper.css'; */
 
 /* Utility Styles */
 @import 'tailwindcss/utilities';

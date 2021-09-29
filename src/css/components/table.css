@@ -1,0 +1,19 @@
+.styled-table {
+  @apply mt-6 mb-6 w-full border border-light;
+  th {
+    @apply bg-light p-3;
+  }
+  th[scope='row'] {
+    @apply bg-transparent text-left border-r border-b border-light;
+  }
+  td {
+    @apply p-3;
+  }
+}
+
+.readiness-table {
+  @apply mt-0;
+  .percentages {
+    @apply border-l-16 pl-2;
+  }
+}

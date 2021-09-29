@@ -1,7 +1,7 @@
 .main-header {
-  @apply max-w-full pb-5;
+  @apply max-w-full py-5;
 
-  .logo {
-    @apply w-72;
+  .site-name {
+    @apply text-2xl font-headers text-white font-bold py-6 px-4 no-underline;
   }
 }

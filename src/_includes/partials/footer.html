@@ -38,22 +38,29 @@
     {% endfor %}
   </ul>
 {% endif %}
-{% if settings.icon %}
-  <a href="{{settings.iconurl}}" class="inline-block" target="_blank">
-    <img
-      src="{{footer.icon}}"
-      alt="{{footer.alttext}}"/>
-    <span class="sr-only">(Opens in a new window)</span>
-  </a>
-{% endif %}
-<div class="bg-footer-gray text-center py-6 px-8">
-  <small class="text-gray-500"
+<div class="text-center mb-4 px-8">
+  {% if footer.footerlogo %}
+    {% if footer.footerlogourl %}
+      <a href="{{footer.footerlogourl}}" class="inline-block" target="_blank">
+      {% endif %}
+      <img
+      src="{{footer.footerlogo}}"
+      alt="{{footer.footerlogoalttext}}"
+      class="mx-auto"/>
+      <span class="sr-only">(Opens in a new window)</span>
+      {% if footer.footerlogourl %}
+      </a>
+    {% endif %}
+  {% endif %}
+</div>
+<div class="text-center px-8">
+  <p class="text-white"
       > &copy; <span id="year"></span>
-    <a href="{{settings.copyurl}}" rel="noopener" target="_blank"  class="text-off-black underline"
+    <a href="{{settings.copyurl}}" rel="noopener" target="_blank"  class="text-white underline"
         >{{settings.name}}
       <span class="sr-only">(Open in a new window)</span></a
       >
-  </small>
+  </p>
 </div>
 </footer>
 <script>

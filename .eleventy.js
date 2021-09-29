@@ -40,7 +40,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("slugMore", (str) => {
       return slugify(str, {
         replacement: "-",
-        remove: /[*+~.()'"!:@]/g,
+        remove: /[/*+~.()'"!:@]/g,
+        lower: true,
+      });
+  });
+
+ //slugify with more character removal
+  eleventyConfig.addFilter("slugId", (str) => {
+      return slugify(str, {
+        replacement: "",
+        remove: /[/*-+~.()'"!:@]/g,
         lower: true,
       });
   });
@@ -84,7 +93,10 @@ module.exports = function (eleventyConfig) {
   });
 
   // Copy Image Folder to /_site
-  eleventyConfig.addPassthroughCopy({"./src/static/img": "images"});
+  eleventyConfig.addPassthroughCopy({ "./src/static/img": "images" });
+  
+  // Copy PDFs to /_site
+  eleventyConfig.addPassthroughCopy({"./src/static/pdfs": "pdfs"});
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");

@@ -1,0 +1,211 @@
+---
+layout: default
+---
+
+<main id="mainContent" class="main-content">
+  <div class=" max-w-7xl text-center mb-3 sm:mb-5">
+    <h1 class="section-title">
+      <span class="block w-full text-sm font-normal italic normal-case mb-3 tracking-wider">Airport Classification:</span>
+      {{title}}
+    </h1>
+  </div>
+  {% set i = 1 %}
+  <nav>
+    <ul class="progress-bar">
+      {% for item in navigation.items %}
+        <li class="step" data-step="{{ item.step }}">
+          <button class="step__link" data-step="{{ item.step }}" data-save-form="{{ item.formid }}{{ path | slugId }}">{{ item.text }}</button>
+        </li>
+        {% set i = i + 1 %}
+      {% endfor %}
+    </ul>
+  </nav>
+  <div id="selfAssessment" class="main-content__container">
+    {{ content | safe }}
+    <form id="classification-{{ path | slugId }}" class="">
+      <fieldset id="step1">
+        <legend>
+          1. Awareness of Advanced Air Mobility (AAM) Weight 20%
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below.</span>
+        </legend>
+        {% set i = 100 %}
+        {% set count = 0 %}
+
+        {% for item in successfactor1.contextawareness %}
+          <div class="error" id="q{{i}}-levelsError"></div>
+          <div class="success-levels">
+            <div class="success-question">
+              <p class="success-level__question">{{item.question}}</p>
+              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
+                <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
+                <p class="download-instructions">
+                      To advance your knowledge on this topic further or for guidance to advance your readiness level visit these chapters in the guidebook. 
+                  </p>
+                <ul class="guidebook-chapters">
+                  {% for chapter in item.guidebooksection %}
+                    <li class="chapter-item">
+                      {{chapter}}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-level1" class="custom-radio" type="radio" value="0" name="q{{i}}-levels" required>
+                <label for="q{{i}}-level1" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 1</span>
+                  {{item.level1}}
+                </label>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-level2" class="custom-radio" type="radio" value="1" name="q{{i}}-levels">
+                <label for="q{{i}}-level2" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 2</span>
+                  {{item.level2}}
+                </label>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-levle3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
+                <label for="q{{i}}-level3" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 3</span>
+                  {{item.level3}}
+                </label>
+              </div>
+            </div>
+          </div>
+          {% set i = i + 1 %}
+          {% set count = count + 1 %}
+        {% endfor %}
+        <input type="hidden" id="awarenessCount" name="awareness-input-count" value="{{count}}"/>
+        <button class="next-button" data-step="2" data-save-form="classification-{{ path | slugId }}">Readiness</button>
+      </fieldset>
+      <fieldset id="step2">
+        <legend>
+          2. Readiness for AAM Weight 45% 
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below.</span>
+        </legend>
+        {% set i = 200 %}
+
+        {% for item in successfactor2.contextreadiness %}
+          <div class="error" id="q{{i}}-levelsError"></div>
+          <div class="success-levels">
+            <div class="success-question">
+              <p class="success-level__question">{{item.question}}</p>
+              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
+                <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
+                <p class="download-instructions">
+                      To advance your knowledge on this topic further or for guidance to advance your readiness level visit these chapters in the guidebook. 
+                  </p>
+                <ul class="guidebook-chapters">
+                  {% for chapter in item.guidebooksection %}
+                    <li class="chapter-item">
+                      {{chapter}}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-level1" class="custom-radio" type="radio" value="0" name="q{{i}}-levels" required>
+                <label for="q{{i}}-level1" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 1</span>
+                  {{item.level1}}
+                </label>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-level2" class="custom-radio" type="radio" value="1" name="q{{i}}-levels">
+                <label for="q{{i}}-level2" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 2</span>
+                  {{item.level2}}
+                </label>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-levle3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
+                <label for="q{{i}}-level3" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 3</span>
+                  {{item.level3}}
+                </label>
+              </div>
+            </div>
+          </div>
+          {% set i = i + 1 %}
+        {% endfor %}
+        <div class="flex justify-between">
+          <button class="prev-button" data-step="1" data-save-form="classification-{{ path | slugId }}">Awareness</button>
+          <button class="next-button" data-step="3" data-save-form="classification-{{ path | slugId }}">Infrastructure</button>
+        </div>
+      </fieldset>
+      <fieldset id="step3">
+        <legend>
+          3. Infrastructure for AAM Weight 35%
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below.</span>
+        </legend>
+        {% set i = 300 %}
+
+        {% for item in successfactor3.contextInfrastructure %}
+          <div class="error" id="q{{i}}-levelsError"></div>
+          <div class="success-levels">
+            <div class="success-question">
+              <p class="success-level__question">{{item.question}}</p>
+              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
+                <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
+                <p class="download-instructions">
+                      To advance your knowledge on this topic further or for guidance to advance your readiness level visit these chapters in the guidebook. 
+                  </p>
+                <ul class="guidebook-chapters">
+                  {% for chapter in item.guidebooksection %}
+                    <li class="chapter-item">
+                      {{chapter}}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-level1" class="custom-radio" type="radio" value="0" name="q{{i}}-levels" required>
+                <label for="q{{i}}-level1" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 1</span>
+                  {{item.level1}}
+                </label>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-level2" class="custom-radio" type="radio" value="1" name="q{{i}}-levels">
+                <label for="q{{i}}-level2" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 2</span>
+                  {{item.level2}}
+                </label>
+              </div>
+            </div>
+            <div class="success-level">
+              <div class="custom-group">
+                <input id="q{{i}}-levle3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
+                <label for="q{{i}}-level3" class="custom-label">
+                  <span class="block text-base text-links font-bold">Level 3</span>
+                  {{item.level3}}
+                </label>
+              </div>
+            </div>
+          </div>
+          {% set i = i + 1 %}
+        {% endfor %}
+        <div class="flex justify-between">
+          <button class="prev-button" data-step="2" data-save-form="classification-{{ path | slugId }}">Readiness</button>
+          <button type="submit" data-href="/summary" data-save-form="classification-{{ path | slugId }}" class="summary-button">View Summary</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</main>

@@ -5,11 +5,8 @@
 }
 
 .dropdown-menu {
-  @apply hidden shadow-md bg-white absolute top-full right-0 w-full z-10;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
+  @apply hidden shadow-md bg-white absolute left-0 right-0 w-full;
+  top: 105%;
   perspective: 1000px;
   z-index: -1;
 }
@@ -17,9 +14,15 @@
 .dropdown-menu__item {
   @apply font-headers transition duration-300 ease-in-out bg-white hover:bg-primary text-dark no-underline hover:text-white;
   position: relative;
+
+  ul {
+    li {
+      @apply pl-5;
+    }
+  }
 }
 .dropdown-menu__link {
-  @apply block p-2 no-underline hover:text-white;
+  @apply block text-sm py-2 px-4 no-underline hover:text-white;
 }
 
 .menu-toggle {

@@ -1,0 +1,53 @@
+/*progressbar*/
+.progress-bar {
+  @apply relative flex justify-center w-full mx-0;
+  /*CSS counters to number the steps*/
+  counter-reset: step;
+  text-align: center;
+  z-index: 1;
+}
+.progress-bar .step {
+  @apply w-1/4;
+  list-style-type: none;
+}
+.progress-bar .step__link {
+  @apply text-white no-underline font-normal text-sm self-end;
+}
+.progress-bar .step::before {
+  content: counter(step);
+  counter-increment: step;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  font-size: 1.125rem;
+  line-height: 2.125rem;
+  font-weight: 600;
+  color: var(--color-gray);
+  background: var(--color-white);
+  border-radius: 50%;
+  border: 0.125rem solid var(--color-white);
+  margin: 0.625rem auto 0.3125rem auto;
+  z-index: 2;
+}
+.progress-bar .step.active {
+  .step__link {
+    @apply font-bold;
+  }
+  &::before {
+    background: var(--color-green);
+    color: var(--color-links);
+    border: 0.25rem solid var(--color-green);
+    line-height: 1.875rem;
+    font-weight: 800;
+  }
+}
+.progress-bar::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 1.875rem;
+  z-index: -1; /*put it behind the numbers*/
+}

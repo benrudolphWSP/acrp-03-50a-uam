@@ -1,3 +1,29 @@
 .home-content {
-  @apply max-w-screen-md mx-auto;
+  @apply lg:grid lg:grid-cols-2 max-w-6xl mx-auto bg-white lg:rounded-lg p-4 md:p-8 shadow-md my-8;
+
+  &__left {
+    @apply row-start-1 col-start-1 col-end-1;
+  }
+  &__right {
+    @apply row-start-1 col-start-2 col-end-2 lg:ml-16;
+  }
+  .custom-group__grid {
+    @apply md:grid md:grid-cols-2 gap-5;
+
+    .custom-group {
+      @apply text-center;
+    }
+    .custom-group:nth-child(1) {
+      @apply md:row-start-1 col-start-1 mb-4 lg:mb-0;
+    }
+    .custom-group:nth-child(2) {
+      @apply md:row-start-1 col-start-2 mb-4 lg:mb-0;
+    }
+    .custom-group:nth-child(3) {
+      @apply md:row-start-2 col-start-1 mb-4 lg:mb-0;
+    }
+    .custom-group:nth-child(4) {
+      @apply md:row-start-2 col-start-2 mb-4 lg:mb-0;
+    }
+  }
 }

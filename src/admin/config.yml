@@ -26,19 +26,6 @@ slug:
 # publish_mode: editorial_workflow
 
 collections:
-  - label: 'News'
-    name: 'news'
-    folder: 'src/news'
-    filter: { field: 'tags', value: 'news' }
-    create: true
-    editor:
-      preview: true
-    sortable_fields: ['commit_date', 'title']
-    fields:
-      - { label: 'Page Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Tags', name: 'tags', widget: 'hidden', default: 'news' }
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'posts' }
   - label: 'Site Pages'
     name: 'pages'
     files:
@@ -73,9 +60,9 @@ collections:
             options:
               ['bg-white', 'bg-primary', 'bg-secondary', 'bg-accent', 'bg-dark']
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Accordions'
-        name: 'accordions'
-        file: 'src/accordions.md'
+      - label: 'About ACRP 03-50A'
+        name: 'about'
+        file: 'src/about.md'
         fields:
           - {
               label: Layout,
@@ -86,9 +73,9 @@ collections:
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Flip Cards'
-        name: 'flip-cards'
-        file: 'src/flip-cards.md'
+      - label: 'About Advanced Air Mobility'
+        name: 'about-aam'
+        file: 'src/about-aam.md'
         fields:
           - {
               label: Layout,
@@ -99,9 +86,64 @@ collections:
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Modals'
-        name: 'modals'
-        file: 'src/modals.md'
+      # - label: 'Guidance'
+      #   name: 'guidance'
+      #   file: 'src/guidance.md'
+      #   fields:
+      #     - {
+      #         label: Layout,
+      #         name: layout,
+      #         widget: hidden,
+      #         default: 'child.html',
+      #       }
+      #     - { label: Path, name: path, widget: hidden, default: name }
+      #     - { label: Title, name: title, widget: string }
+      #     - { label: 'Body', name: 'body', widget: 'markdown' }
+      # - label: 'Guidance: Level 1 to Level 2'
+      #   name: 'guidance-level-1-2'
+      #   file: 'src/guidance-level-1-2.md'
+      #   fields:
+      #     - {
+      #         label: Layout,
+      #         name: layout,
+      #         widget: hidden,
+      #         default: 'child.html',
+      #       }
+      #     - { label: Path, name: path, widget: hidden, default: name }
+      #     - { label: Title, name: title, widget: string }
+      #     - { label: 'Body', name: 'body', widget: 'markdown' }
+      # - label: 'Guidance: Level 2 to Level 3'
+      #   name: 'guidance-level-2-3'
+      #   file: 'src/guidance-level-2-3.md'
+      #   fields:
+      #     - {
+      #         label: Layout,
+      #         name: layout,
+      #         widget: hidden,
+      #         default: 'child.html',
+      #       }
+      #     - { label: Path, name: path, widget: hidden, default: name }
+      #     - { label: Title, name: title, widget: string }
+      #     - { label: 'Body', name: 'body', widget: 'markdown' }
+      # - label: 'Guidance: Level 3 Considerations'
+      #   name: 'guidance-level-3-considerations'
+      #   file: 'src/guidance-level-3-considerations.md'
+      #   fields:
+      #     - {
+      #         label: Layout,
+      #         name: layout,
+      #         widget: hidden,
+      #         default: 'child.html',
+      #       }
+      #     - { label: Path, name: path, widget: hidden, default: name }
+      #     - { label: Title, name: title, widget: string }
+      #     - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: 'Airport Classification Pages'
+    name: 'classification-pages'
+    files:
+      - label: 'Hub'
+        name: 'airport-hub'
+        file: 'src/classifications/airport-hub.md'
         fields:
           - {
               label: Layout,
@@ -111,10 +153,161 @@ collections:
             }
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Timeline'
-        name: 'timeline'
-        file: 'src/timeline.md'
+          - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
+          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+            name: 'successfactor1'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextawareness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Awareness, name: level1, widget: text }
+                  - { label: Level 2 Awareness, name: level2, widget: text }
+                  - { label: Level 3 Awareness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - {
+                          label: 'Ch. 2 Market Assessment',
+                          value: 'Ch. 2 Market Assessment',
+                        }
+                      - {
+                          label: 'Ch. 3 Business Case and Implications for Airports',
+                          value: 'Ch. 3 Business Case and Implications for Airports',
+                        }
+                      - {
+                          label: 'Ch. 3.1 Business Case for UAM',
+                          value: 'Ch. 3.1 Business Case for UAM',
+                        }
+                      - {
+                          label: 'Ch. 3.2 Community Engagement',
+                          value: 'Ch. 3.2 Community Engagement',
+                        }
+                      - {
+                          label: 'Ch. 3.3 Funding Considerations',
+                          value: 'Ch. 3.3 Funding Considerations',
+                        }
+                      - {
+                          label: 'Ch. 3.4 Multimodal Integration',
+                          value: 'Ch. 3.4 Multimodal Integration',
+                        }
+                      - {
+                          label: 'Ch. 4 Use Cases Market Study',
+                          value: 'Ch. 4 Use Cases Market Study',
+                        }
+                      - {
+                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                        }
+                      - {
+                          label: 'Ch. 5.1 UAM Impacts on Airports',
+                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                        }
+                      - {
+                          label: 'Ch. 5.2 UAM Opportunities for Airports',
+                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                        }
+                      - {
+                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                        }
+                      - {
+                          label: 'Ch. 6.10 AAM for Airport Master Planning',
+                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                        }
+                      - {
+                          label: 'Ch. 6.3 Applicable Policies & Standards',
+                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                        }
+                      - {
+                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                        }
+                      - {
+                          label: 'Ch. 6.5 AAM Planning Process',
+                          value: 'Ch. 6.5 AAM Planning Process',
+                        }
+                      - {
+                          label: 'Ch. 6.7 General Aviation Facilities',
+                          value: 'Ch. 6.7 General Aviation Facilities',
+                        }
+          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+            name: 'successfactor2'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextreadiness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Readiness, name: level1, widget: text }
+                  - { label: Level 2 Readiness, name: level2, widget: text }
+                  - { label: Level 3 Readiness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+            name: 'successfactor3'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextInfrastructure'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - {
+                      label: Level 1 Infrastructure,
+                      name: level1,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 2 Infrastructure,
+                      name: level2,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 3 Infrastructure,
+                      name: level3,
+                      widget: text,
+                    }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+      - label: 'Urban'
+        name: 'airport-urban'
+        file: 'src/classifications/airport-urban.md'
         fields:
           - {
               label: Layout,
@@ -124,10 +317,106 @@ collections:
             }
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Typography'
-        name: 'typography'
-        file: 'src/typography.md'
+          - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
+          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+            name: 'successfactor1'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextawareness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Awareness, name: level1, widget: text }
+                  - { label: Level 2 Awareness, name: level2, widget: text }
+                  - { label: Level 3 Awareness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+            name: 'successfactor2'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextreadiness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Readiness, name: level1, widget: text }
+                  - { label: Level 2 Readiness, name: level2, widget: text }
+                  - { label: Level 3 Readiness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+            name: 'successfactor3'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextInfrastructure'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - {
+                      label: Level 1 Infrastructure,
+                      name: level1,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 2 Infrastructure,
+                      name: level2,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 3 Infrastructure,
+                      name: level3,
+                      widget: text,
+                    }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+      - label: 'Suburban'
+        name: 'airport-suburban'
+        file: 'src/classifications/airport-suburban.md'
         fields:
           - {
               label: Layout,
@@ -137,36 +426,212 @@ collections:
             }
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: 'Gallery'
-        name: 'gallery'
-        file: 'src/gallery.md'
+          - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
+          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+            name: 'successfactor1'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextawareness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Awareness, name: level1, widget: text }
+                  - { label: Level 2 Awareness, name: level2, widget: text }
+                  - { label: Level 3 Awareness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+            name: 'successfactor2'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextreadiness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Readiness, name: level1, widget: text }
+                  - { label: Level 2 Readiness, name: level2, widget: text }
+                  - { label: Level 3 Readiness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+            name: 'successfactor3'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextInfrastructure'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - {
+                      label: Level 1 Infrastructure,
+                      name: level1,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 2 Infrastructure,
+                      name: level2,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 3 Infrastructure,
+                      name: level3,
+                      widget: text,
+                    }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+      - label: 'Rural'
+        name: 'airport-rural'
+        file: 'src/classifications/airport-rural.md'
         fields:
           - {
               label: Layout,
               name: layout,
               widget: hidden,
-              default: 'gallery.html',
+              default: 'child.html',
             }
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-          - {
-              label: 'Gallery',
-              name: 'galleryImages',
-              widget: 'list',
-              fields:
-                [
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'Alt', name: 'altText', widget: 'text' },
-                  {
-                    label: 'Caption',
-                    name: 'caption',
-                    widget: 'text',
-                    required: false,
-                  },
-                ],
-            }
+          - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
+          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+            name: 'successfactor1'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextawareness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Awareness, name: level1, widget: text }
+                  - { label: Level 2 Awareness, name: level2, widget: text }
+                  - { label: Level 3 Awareness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+            name: 'successfactor2'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextreadiness'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - { label: Level 1 Readiness, name: level1, widget: text }
+                  - { label: Level 2 Readiness, name: level2, widget: text }
+                  - { label: Level 3 Readiness, name: level3, widget: text }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
+          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+            name: 'successfactor3'
+            widget: 'object'
+            summary: '{{fields.name}}'
+            fields:
+              - label: 'Success Factors'
+                name: 'contextInfrastructure'
+                widget: 'list'
+                summary: '{{fields.question}}'
+                fields:
+                  - { label: Question, name: question, widget: text }
+                  - {
+                      label: Level 1 Infrastructure,
+                      name: level1,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 2 Infrastructure,
+                      name: level2,
+                      widget: text,
+                    }
+                  - {
+                      label: Level 3 Infrastructure,
+                      name: level3,
+                      widget: text,
+                    }
+                  - label: 'Guidebook Section/s'
+                    name: 'guidebooksection'
+                    widget: 'select'
+                    multiple: true
+                    options:
+                      - { label: 'Market Study', value: 'Market Study' }
+                      - { label: 'Business Case', value: 'Business Case' }
+                      - { label: 'Planning', value: 'Planning' }
+                      - { label: 'Use Cases', value: 'Use Cases' }
+                      - {
+                          label: 'Community Engagement',
+                          value: 'Community Engagement',
+                        }
+                      - { label: 'Multimodal', value: 'Multimodal' }
   - label: 'Settings'
     name: 'settings'
     editor:
@@ -227,7 +692,8 @@ collections:
             collapsed: false
             fields:
               - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
+              - { label: Step, name: step, widget: string }
+              - { label: Form ID, name: formid, widget: string }
       - label: 'Footer'
         name: 'footeritems'
         file: 'src/_data/footer.yaml'

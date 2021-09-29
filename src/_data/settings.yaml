@@ -1,6 +1,6 @@
-name: NEWT Starter Kit
-headersocial: true
-headercolor: bg-accent
-logo: /images/newt_logo.svg
+name: ACRP 03-50A UAM Toolkit
+headersocial: false
+headercolor: bg-secondary
+logo: ""
 alttext: Newt Site Starter Kit
 logourl: /

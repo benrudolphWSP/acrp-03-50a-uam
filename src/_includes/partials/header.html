@@ -59,11 +59,9 @@
             </svg>
           </span>
         </button>
-        <nav>
-          <!--Menu-->
-          <div class="dropdown-menu main-nav" hidden>
-            {{ collections.all | eleventyNavigation("Home") | eleventyNavigationToHtml({ listItemClass: "dropdown-menu__item", anchorClass: "dropdown-menu__link"}) | safe }}
-          </div>
+        <!--Menu-->
+        <nav class="dropdown-menu main-nav" hidden>
+          {{ collections.all | eleventyNavigation("Home") | eleventyNavigationToHtml({ listItemClass: "dropdown-menu__item", anchorClass: "dropdown-menu__link"}) | safe }}
         </nav>
       </div>
     </div>
@@ -82,7 +80,7 @@
       <ul class="breadcrumbs">
         <li>
           <span class="sr-only">You are here:</span>
-          <a class="text-links hover:underline" href="/">Home</a>
+          <a class="text-white hover:underline" href="/">Home</a>
           <span class="mx-3">></span>
         </li>
         <li>{{ elventyNavigation.key or title }}</li>
