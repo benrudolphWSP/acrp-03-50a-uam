@@ -11,10 +11,7 @@ successfactor1:
       level3: High level of awareness and a keen interest in closely following
         fundamental and applied research and development in this area.
       question: >
-        Does the airport have an understanding of Urban Air Mobility Initiatives
-        (UAM)? (e.g., FAA & NASA UAM Initiatives; OEM and Service Provider
-        partnerships, Electrification of Aviation Initiatives Alternative
-        aviation approaches being developed and tested)
+        Does the airport have an understanding of Urban Air Mobility Initiatives (UAM)? (e.g., FAA & NASA UAM Initiatives; OEM and Service Provider partnerships, Electrification of Aviation initiatives, or alternative aviation approaches being developed and tested)
       guidebooksection:
         - Ch. 3 Business Case and Implications for Airports
     - level1: Little or no interactions beyond the airport community in relation to
@@ -36,9 +33,7 @@ successfactor1:
         to electrical powerplants at this time.
       level3: Have a general interest and goals for diversifying their fleets to
         electrical powerplants in the near future.
-      question: Are there any flight schools, General Aviation tenants, or Ground
-        Support Equipment operators who are looking at upgrading their fleets to
-        electrical powerplants?
+      question: Are there any flight schools, general aviation tenants, or ground support equipment operators who are looking at upgrading their fleets to electrical powerplants?
       guidebooksection:
         - Ch. 3.1 Business Case for UAM
     - level1: >

@@ -9,7 +9,13 @@ select {
   @apply text-error font-bold bg-light;
 }
 .error.active {
-  @apply ml-2 mt-6 bg-light p-2;
+  @apply mt-6 bg-light p-2 -mb-10;
+}
+.global-error {
+  @apply hidden;
+}
+.global-error.active {
+  @apply block bg-light;
 }
 
 fieldset {

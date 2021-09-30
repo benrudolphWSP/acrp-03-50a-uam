@@ -34,9 +34,7 @@ successfactor1:
         to electrical powerplants at this time.
       level3: Have a general interest and goals for diversifying their fleets to
         electrical powerplants in the near future.
-      question: Are there any flight schools, General Aviation tenants, or Ground
-        Support Equipment operators who are looking at upgrading their fleets to
-        electrical powerplants?
+      question: Are there any flight schools, general aviation tenants, or ground support equipment operators who are looking at upgrading their fleets to electrical powerplants?
       guidebooksection:
         - Ch. 3.1 Business Case for UAM
     - level1: No awareness or plans regarding a decline in petroleum-based fuel

@@ -33,7 +33,10 @@ export default function clickHandler(event) {
 
   if (target == restart) {
     localStorage.removeItem('formSaver-airportClassification');
-    localStorage.removeItem('formSaver-classificationAssessment');
+    localStorage.removeItem('formSaver-classification-airport-hub');
+    localStorage.removeItem('formSaver-classification-airport-urban');
+    localStorage.removeItem('formSaver-classification-airport-suburban');
+    localStorage.removeItem('formSaver-classification-airport-rural');
     window.location.href = '/';
   }
 }

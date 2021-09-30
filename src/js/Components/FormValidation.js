@@ -1,4 +1,4 @@
-import isValid from "../helpers/isValid";
+import isValid from '../helpers/isValid';
 
 export default function FormValidation(callback, target) {
   const currentFieldset = document.querySelector('fieldset.active');
@@ -13,12 +13,15 @@ export default function FormValidation(callback, target) {
   // Define error messages
   const fieldErrors = {
     empty: 'The following field is required.',
-    notchecked: 'Please make a selection'
+    notchecked: 'Please make a selection',
   };
 
-  if(inputs) {
+  if (inputs) {
     Array.prototype.forEach.call(inputs, (input) => {
-      const errorMessage = document.querySelector(`#${input.name}Error`);
+      const errorMessage = document.querySelector(
+        `fieldset.active #${input.name}Error`
+      );
+      const globalErrorMessage = document.querySelector(`fieldset.active #globalError`);
       // Get validity
       const validity = input.validity;
 
@@ -35,7 +38,10 @@ export default function FormValidation(callback, target) {
         input.setCustomValidity(fieldErrors.empty);
         errorMessage.innerHTML = input.validationMessage;
         errorMessage.classList.add('active');
+        globalErrorMessage.classList.add('active');
         input.setAttribute('aria-describedby', `${input.name}Error`);
+        history.scrollRestoration = 'manual';
+        window.scrollTo(0, document.body.scrollHeight);
         return;
       }
 
@@ -69,4 +75,3 @@ export default function FormValidation(callback, target) {
     callback(target);
   }
 }
-

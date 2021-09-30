@@ -26,7 +26,7 @@ layout: default
       <fieldset id="step1">
         <legend>
           1. Awareness of Advanced Air Mobility (AAM) Weight 20%
-          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below.</span>
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step.</span>
         </legend>
         {% set i = 100 %}
         {% set count = 0 %}
@@ -39,7 +39,7 @@ layout: default
               <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
                 <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
                 <p class="download-instructions">
-                      To advance your knowledge on this topic further or for guidance to advance your readiness level visit these chapters in the guidebook. 
+                      To further advance your knowledge on this topic or for guidance on improving your readiness level, visit these chapters in the guidebook. 
                   </p>
                 <ul class="guidebook-chapters">
                   {% for chapter in item.guidebooksection %}
@@ -82,12 +82,15 @@ layout: default
           {% set count = count + 1 %}
         {% endfor %}
         <input type="hidden" id="awarenessCount" name="awareness-input-count" value="{{count}}"/>
+        <div id="globalError" class="global-error">
+          <p class="text-error text-right text-lg p-3 font-semibold">You have missed some required fields. Please scroll up and make sure all questions have been answered.</p>
+        </div>
         <button class="next-button" data-step="2" data-save-form="classification-{{ path | slugId }}">Readiness</button>
       </fieldset>
       <fieldset id="step2">
         <legend>
           2. Readiness for AAM Weight 45% 
-          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below.</span>
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step.</span>
         </legend>
         {% set i = 200 %}
 
@@ -99,7 +102,7 @@ layout: default
               <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
                 <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
                 <p class="download-instructions">
-                      To advance your knowledge on this topic further or for guidance to advance your readiness level visit these chapters in the guidebook. 
+                      To further advance your knowledge on this topic or for guidance on improving your readiness level, visit these chapters in the guidebook. 
                   </p>
                 <ul class="guidebook-chapters">
                   {% for chapter in item.guidebooksection %}
@@ -140,6 +143,9 @@ layout: default
           </div>
           {% set i = i + 1 %}
         {% endfor %}
+        <div id="globalError" class="global-error">
+          <p class="text-error text-right text-lg p-3 font-semibold">You have missed some required fields. Please scroll up and make sure all questions have been answered.</p>
+        </div>
         <div class="flex justify-between">
           <button class="prev-button" data-step="1" data-save-form="classification-{{ path | slugId }}">Awareness</button>
           <button class="next-button" data-step="3" data-save-form="classification-{{ path | slugId }}">Infrastructure</button>
@@ -148,7 +154,7 @@ layout: default
       <fieldset id="step3">
         <legend>
           3. Infrastructure for AAM Weight 35%
-          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below.</span>
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step.</span>
         </legend>
         {% set i = 300 %}
 
@@ -160,7 +166,7 @@ layout: default
               <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
                 <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
                 <p class="download-instructions">
-                      To advance your knowledge on this topic further or for guidance to advance your readiness level visit these chapters in the guidebook. 
+                      To further advance your knowledge on this topic or for guidance on improving your readiness level, visit these chapters in the guidebook. 
                   </p>
                 <ul class="guidebook-chapters">
                   {% for chapter in item.guidebooksection %}
@@ -201,6 +207,9 @@ layout: default
           </div>
           {% set i = i + 1 %}
         {% endfor %}
+        <div id="globalError" class="global-error">
+          <p class="text-error text-right text-lg p-3 font-semibold">You have missed some required fields. Please scroll up and make sure all questions have been answered.</p>
+        </div>
         <div class="flex justify-between">
           <button class="prev-button" data-step="2" data-save-form="classification-{{ path | slugId }}">Readiness</button>
           <button type="submit" data-href="/summary" data-save-form="classification-{{ path | slugId }}" class="summary-button">View Summary</button>
