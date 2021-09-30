@@ -1,6 +1,7 @@
 import { getStep } from './Getters';
+import errorReset from '../helpers/errorReset';
 
-export default function ShowCurrentStep() {
+export default function ShowCurrentStep(callback) {
   const currentStep = getStep();
   const fieldsets = document.querySelectorAll('fieldset');
   const progressItems = document.querySelectorAll('.step');
@@ -25,4 +26,6 @@ export default function ShowCurrentStep() {
   }
 
   document.documentElement.scrollTop = 0;
+
+  errorReset();
 }
