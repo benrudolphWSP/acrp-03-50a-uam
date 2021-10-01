@@ -1,22 +1,22 @@
 ---
 layout: home.html
-title: ACRP 03-50A AAM Toolkit
+title: ACRP 03-50A UAM Toolkit
 path: home
 hero: true
 eleventyNavigation:
   key: Home
-herotitle: Advanced Air Mobility (AAM) Airport Assessment Tool
+herotitle: Urban Air Mobility (UAM) Airport Assessment Tool
 herocolor: bg-primary
 ---
 <div class="home-content__left">
   
- This assessment is designed to provide airport practitioners (i) an understanding of their readiness to prepare for Advanced Air Mobility (AAM); and, (ii) resources in the guidebook that will provide the greatest benefit for advancing capability maturity. Once completed, the assessment provides a readiness level and recommendation for a Go/No-go decision.
+ This assessment is designed to provide airport practitioners (i) an understanding of their readiness to prepare for Urban Air Mobility (UAM); and, (ii) resources in the guidebook that will provide the greatest benefit for advancing capability maturity. Once completed, the assessment provides a readiness level and recommendation for a Go/No-go decision.
   
-  ## The Go/No-Go Decision
+## The Go/No-Go Decision
   
 The assessment is a straightforward process of systematically evaluating the airport’s capabilities concerning three key areas: awareness, readiness, and infrastructure.
   
-The four readiness levels will help determine a path forward for AAM integration.
+The four readiness levels will help determine a path forward for UAM integration.
   
   <ol class="flex justify-between ml-0 text-center">
       <li class=" list-none m-0 border-t-8 border-error flex-1 pt-3 font-bold text-lg">1. No-go</li>

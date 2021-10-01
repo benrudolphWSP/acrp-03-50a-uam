@@ -28,7 +28,7 @@ successfactor1:
         multimodal integration, or smart city initiatives?
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - level1: No or none that are considering electrical powerplants at this time.
       level2: There may be some interest but minimal goals for diversifying the fleet
         to electrical powerplants at this time.
@@ -99,7 +99,7 @@ successfactor2:
         adopter.
       guidebooksection:
         - 'Ch. 3: Business Case and Implications for Airports'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - question: Have airport resources been identified for future growth
         opportunities? (e.g., electrical system, operational density, land use,
         zoning requirements, lease agreement modifications)
@@ -122,7 +122,7 @@ successfactor2:
         initiatives.
       guidebooksection:
         - 'Ch. 5.2: UAM Opportunities for Airports'
-        - 'Ch. 6.10: AAM for Airport Master Planning'
+        - 'Ch. 6.10: UAM for Airport Master Planning'
     - question: Has the airport planned or coordinated with the city for community
         engagement for UAM initiatives?
       level1: None or minimal community engagement has been planned for UAM operations.
@@ -165,7 +165,7 @@ successfactor2:
       level3: Curbside facilities exist and are readily available for use for UAM
         passengers.
       guidebooksection:
-        - 'Ch. 6.4: Policymaking Efforts on AAM Planning'
+        - 'Ch. 6.4: Policymaking Efforts on UAM Planning'
     - question: Have there been discussions around the availability of a sustainable
         workforce to support new operations in the area?
       level1: There is insufficient capacity in numbers of people and levels of
@@ -179,7 +179,7 @@ successfactor2:
         expertise available within the agency or accessible through outsourcing
         to undertake the UAM initiatives.
       guidebooksection:
-        - 'Ch. 6.4: Policymaking Efforts on AAM Planning'
+        - 'Ch. 6.4: Policymaking Efforts on UAM Planning'
     - question: Have there been any discussions with housing authorities to determine
         if there is available housing in the community to support new workforce
         entrants?
@@ -212,7 +212,7 @@ successfactor2:
         first/last mile connections.
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - question: Is the distance of the airport from economic activity centers
         prohibitive to facilitating UAM?
       level1: The airport location to activity centers is prohibitive for success with
@@ -224,7 +224,7 @@ successfactor2:
         sufficient transportation options exist for success.
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - question: Has there been discussions with other multimodal entities to discuss
         common goals for integration of UAM & other multimodal options?
       level1: There have been no discussions regarding multimodal integration or UAM
@@ -240,7 +240,7 @@ successfactor2:
         connections with UAM.
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
 successfactor3:
   contextInfrastructure:
     - question: Are you aware of the development goals for the adjacent land
@@ -291,5 +291,5 @@ successfactor3:
       level3: Have dedicated electrical capacity or plan to build infrastructure to
         support UAM and other airport operations for future capacity needs.
       guidebooksection:
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
 ---

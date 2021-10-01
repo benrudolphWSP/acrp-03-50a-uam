@@ -102,7 +102,7 @@ export default function AssessmentSummary() {
         <th scope="col" class="bg-light">Airport Readiness (%)</th>
       </tr>
       <tr>
-        <th scope="row" class="text-center bg-transparent">Awareness of Advanced Air Mobility (20%)</th>
+        <th scope="row" class="text-center bg-transparent">Awareness of Urban Air Mobility(20%)</th>
         <td class="border-r border-b border-light text-center font-semibold text-lg">
           <div data-level>
           ${assessmentScore('q1', 0.2)}%
@@ -110,7 +110,7 @@ export default function AssessmentSummary() {
         </td>
       </tr>
       <tr>
-        <th scope="row" class="text-center bg-transparent">Readiness for Advanced Air Mobility (45%)</th>
+        <th scope="row" class="text-center bg-transparent">Readiness for Urban Air Mobility(45%)</th>
         <td class="border-r border-b border-light text-center font-semibold text-lg">
           <div data-level>
           ${assessmentScore('q2', 0.45)}%
@@ -118,7 +118,7 @@ export default function AssessmentSummary() {
         </td>
       </tr>
       <tr>
-        <th scope="row" class="text-center bg-transparent">Infrastructure for Advanced Air Mobility (35%)</th>
+        <th scope="row" class="text-center bg-transparent">Infrastructure for Urban Air Mobility(35%)</th>
         <td class="border-r border-b border-light text-center font-semibold text-lg">
           <div data-level>
           ${assessmentScore('q3', 0.35)}%
@@ -126,7 +126,7 @@ export default function AssessmentSummary() {
         </td>
       </tr>
       <tr>
-        <th scope="row" class="text-center bg-light">Overall Advanced Airport Mobility Readiness Level</th>
+        <th scope="row" class="text-center bg-light">Overall Urban Air Mobility Readiness Level</th>
         <td class="mx-auto bg-light border-r border-b border-light text-center">
           ${overallScore()}
         </td>

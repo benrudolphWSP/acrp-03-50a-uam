@@ -72,8 +72,8 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'About Advanced Air Mobility'
-        name: 'about-aam'
-        file: 'src/about-aam.md'
+        name: 'about-UAM'
+        file: 'src/about-UAM.md'
         fields:
           - {
               label: Layout,
@@ -152,7 +152,7 @@ collections:
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
-          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+          - label: 'Awareness of Urban Air MobilityWeight 20%'
             name: 'successfactor1'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -216,20 +216,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -239,7 +239,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+          - label: 'Readiness for Urban Air MobilityWeight 40%'
             name: 'successfactor2'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -303,20 +303,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -326,7 +326,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+          - label: 'Infrastructure for Urban Air MobilityWeight 40%'
             name: 'successfactor3'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -402,20 +402,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -438,7 +438,7 @@ collections:
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
-          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+          - label: 'Awareness of Urban Air MobilityWeight 20%'
             name: 'successfactor1'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -502,20 +502,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -525,7 +525,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+          - label: 'Readiness for Urban Air MobilityWeight 40%'
             name: 'successfactor2'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -589,20 +589,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -612,7 +612,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+          - label: 'Infrastructure for Urban Air MobilityWeight 40%'
             name: 'successfactor3'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -688,20 +688,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -724,7 +724,7 @@ collections:
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
-          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+          - label: 'Awareness of Urban Air MobilityWeight 20%'
             name: 'successfactor1'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -788,20 +788,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -811,7 +811,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+          - label: 'Readiness for Urban Air MobilityWeight 40%'
             name: 'successfactor2'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -875,20 +875,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -898,7 +898,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+          - label: 'Infrastructure for Urban Air MobilityWeight 40%'
             name: 'successfactor3'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -974,20 +974,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -1010,7 +1010,7 @@ collections:
           - { label: Path, name: path, widget: hidden, default: name }
           - { label: Title, name: title, widget: string }
           - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
-          - label: 'Awareness of Advanced Air Mobility Weight 20%'
+          - label: 'Awareness of Urban Air MobilityWeight 20%'
             name: 'successfactor1'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -1074,20 +1074,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -1097,7 +1097,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Readiness for Advanced Air Mobility Weight 40%'
+          - label: 'Readiness for Urban Air MobilityWeight 40%'
             name: 'successfactor2'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -1161,20 +1161,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',
@@ -1184,7 +1184,7 @@ collections:
                           label: 'Ch. 6.7: General Aviation Facilities',
                           value: 'Ch. 6.7: General Aviation Facilities',
                         }
-          - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
+          - label: 'Infrastructure for Urban Air MobilityWeight 40%'
             name: 'successfactor3'
             widget: 'object'
             summary: '{{fields.name}}'
@@ -1260,20 +1260,20 @@ collections:
                           value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10: AAM for Airport Master Planning',
-                          value: 'Ch. 6.10: AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: UAM for Airport Master Planning',
+                          value: 'Ch. 6.10: UAM for Airport Master Planning',
                         }
                       - {
                           label: 'Ch. 6.3: Applicable Policies & Standards',
                           value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on UAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5: AAM Planning Process',
-                          value: 'Ch. 6.5: AAM Planning Process',
+                          label: 'Ch. 6.5: UAM Planning Process',
+                          value: 'Ch. 6.5: UAM Planning Process',
                         }
                       - {
                           label: 'Ch. 6.6: Vertiports',

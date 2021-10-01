@@ -27,7 +27,7 @@ successfactor1:
         multimodal integration, or smart city initiatives?
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - level1: No or none that are considering electrical powerplants at this time.
       level2: There may be some interest but minimal goals for diversifying the fleet
         to electrical powerplants at this time.
@@ -99,7 +99,7 @@ successfactor2:
         adopter.
       guidebooksection:
         - 'Ch. 3: Business Case and Implications for Airports'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - question: Have airport resources been identified for future growth
         opportunities? (e.g., electrical system, operational density, land use,
         zoning requirements, lease agreement modifications)
@@ -122,9 +122,9 @@ successfactor2:
         initiatives.
       guidebooksection:
         - 'Ch. 5.2: UAM Opportunities for Airports'
-        - 'Ch. 6.10: AAM for Airport Master Planning'
+        - 'Ch. 6.10: UAM for Airport Master Planning'
     - question: Has the airport planned or coordinated with the city for community
-        engagement for AAM initiatives?
+        engagement for UAM initiatives?
       level1: >
         None or minimal community engagement has been planned for UAM operations.
       level2: |
@@ -172,19 +172,19 @@ successfactor2:
         new operations in the area?
       level1: >
         Insufficient capacity in numbers of people and levels of expertise
-        within the agency or accessible through outsourcing to undertake AAM
+        within the agency or accessible through outsourcing to undertake UAM
         Initiatives
       level2: >
         The capacity in numbers of people and levels of expertise available
-        within the agency or accessible through outsourcing to undertake AAM
+        within the agency or accessible through outsourcing to undertake UAM
         initiatives is barely sufficient, but can be expected to increase with
         the advancement of the practice
       level3: >
         Sufficient capacity in numbers of people and levels of expertise
         available within the agency or accessible through outsourcing to
-        undertake the AAM initiatives
+        undertake the UAM initiatives
       guidebooksection:
-        - 'Ch. 6.4: Policymaking Efforts on AAM Planning'
+        - 'Ch. 6.4: Policymaking Efforts on UAM Planning'
     - question: >
         Have there been discussions around the availability of a sustainable
         workforce to support new operations in the area?
@@ -202,7 +202,7 @@ successfactor2:
         expertise available within the agency or accessible through outsourcing
         to undertake the UAM initiatives.
       guidebooksection:
-        - 'Ch. 6.4: Policymaking Efforts on AAM Planning'
+        - 'Ch. 6.4: Policymaking Efforts on UAM Planning'
     - question: >
         Have there been any discussions with housing authorities to determine if
         there is available housing in the community to support new workforce
@@ -222,32 +222,32 @@ successfactor2:
     - question: |
         Are there processes in place for successful community engagement?
       level1: |
-        Minimal or no community engagement for AAM initiatives
+        Minimal or no community engagement for UAM initiatives
       level2: >
-        Moderate community engagement on airports intended goals for AAM
+        Moderate community engagement on airports intended goals for UAM
         operations
       level3: >
         Communities have been engaged and continual outreach plans will be part
-        of the implementation of AAM initiatives
+        of the implementation of UAM initiatives
       guidebooksection:
         - 'Ch. 3.2: Community Engagement'
     - question: |
-        Are curbside facilities accessible for AAM operations?
+        Are curbside facilities accessible for UAM operations?
       level1: >
-        Curbside facilities have not been identified or are not usable for  AAM
+        Curbside facilities have not been identified or are not usable for  UAM
         passengers
       level2: >
         Curbside facilities have been identified but need updates for support
-        AAM passengers
+        UAM passengers
       level3: >
-        Curbside facilities exist and are readily available for use for AAM
+        Curbside facilities exist and are readily available for use for UAM
         passengers.
       guidebooksection:
         - 'Ch. 5.1: UAM Impacts on Airports'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - question: >
         Has there been discussions with other multimodal entities to discuss
-        common goals for integration of AAM & other multimodal options?
+        common goals for integration of UAM & other multimodal options?
       level1: >
         No discussions at this time and/or the location of the airport vs
         centers of activity prohibits success and no partners exist for
@@ -262,10 +262,10 @@ successfactor2:
         success
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - question: >
         Has there been discussions with other multimodal entities to discuss
-        common goals for integration of AAM & other multimodal options?
+        common goals for integration of UAM & other multimodal options?
       level1: >
         No discussions at this time and/or the location of the airport vs
         centers of activity prohibits success and no partners exist for
@@ -280,7 +280,7 @@ successfactor2:
         success
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
     - question: >
         Is the distance of the airport from economic activity centers
         prohibitive to facilitating UAM?
@@ -296,7 +296,7 @@ successfactor2:
         sufficient transportation options exist for success.
       guidebooksection:
         - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
 successfactor3:
   contextInfrastructure:
     - question: |
@@ -308,9 +308,9 @@ successfactor3:
         Moderate condition of infrastructure with plans for repair or
         revitalization
       level3: >
-        New infrastructure and capacity to incorporate AAM operations and tenants
+        New infrastructure and capacity to incorporate UAM operations and tenants
       guidebooksection:
-        - 'Ch. 6.10: AAM for Airport Master Planning'
+        - 'Ch. 6.10: UAM for Airport Master Planning'
     - question: >
         Are you aware of the development goals for the adjacent land surrounding
         your airport?
@@ -379,5 +379,5 @@ successfactor3:
         Have dedicated electrical capacity or plan to build infrastructure to
         support UAM and other airport operations for future capacity needs.
       guidebooksection:
-        - 'Ch. 6.5: AAM Planning Process'
+        - 'Ch. 6.5: UAM Planning Process'
 ---
