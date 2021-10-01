@@ -30,7 +30,7 @@ body {
 
 /* Success levels found on the assessment pages */
 .success-levels {
-  @apply md:grid  border border-primary-light my-10;
+  @apply md:grid rounded-lg  border border-primary-light my-10;
 
   @screen md {
     grid-template: 'question question question question question' 'level1 . level2 . level3' / 1fr 0.75rem 1fr 0.75rem 1fr;
@@ -43,16 +43,16 @@ body {
     }
   }
   .success-question {
-    @apply relative md:flex md:justify-between font-bold py-4 px-3 md:pr-2 md:pl-10;
+    @apply relative md:flex md:justify-between font-bold pt-8 pb-4 px-3 md:pr-2 md:pl-20;
     grid-area: question;
 
     &::before {
-      @apply -top-2 left-0 absolute opacity-40 text-primary-light text-6xl leading-none;
+      @apply top-6 left-2 absolute opacity-60 text-primary-light text-5xl leading-none;
       content: 'Q:';
     }
 
     .success-level__question {
-      @apply md:flex-grow-0 md:w-7/12 flex items-center text-base lg:text-xl leading-relaxed font-semibold;
+      @apply md:flex-grow-0 md:w-7/12 flex text-base lg:text-xl leading-relaxed font-semibold;
     }
   }
   .success-level:nth-child(2) {
@@ -70,7 +70,7 @@ body {
 .guidebook-chapters {
   @apply m-0;
   .chapter-item {
-    @apply bg-light list-none text-sm font-normal px-2 py-1 ml-0;
+    @apply font-normal italic;
   }
 }
 

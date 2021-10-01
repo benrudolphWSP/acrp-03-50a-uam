@@ -172,72 +172,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Readiness for Advanced Air Mobility Weight 40%'
             name: 'successfactor2'
@@ -259,72 +259,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
             name: 'successfactor3'
@@ -358,72 +358,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
       - label: 'Urban'
         name: 'airport-urban'
@@ -458,72 +458,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Readiness for Advanced Air Mobility Weight 40%'
             name: 'successfactor2'
@@ -545,72 +545,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
             name: 'successfactor3'
@@ -644,72 +644,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
       - label: 'Suburban'
         name: 'airport-suburban'
@@ -744,72 +744,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Readiness for Advanced Air Mobility Weight 40%'
             name: 'successfactor2'
@@ -831,72 +831,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
             name: 'successfactor3'
@@ -930,72 +930,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
       - label: 'Rural'
         name: 'airport-rural'
@@ -1030,72 +1030,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Readiness for Advanced Air Mobility Weight 40%'
             name: 'successfactor2'
@@ -1117,72 +1117,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
           - label: 'Infrastructure for Advanced Air Mobility Weight 40%'
             name: 'successfactor3'
@@ -1216,72 +1216,72 @@ collections:
                     multiple: true
                     options:
                       - {
-                          label: 'Ch. 2 Market Assessment',
-                          value: 'Ch. 2 Market Assessment',
+                          label: 'Ch. 2: Market Assessment',
+                          value: 'Ch. 2: Market Assessment',
                         }
                       - {
-                          label: 'Ch. 3 Business Case and Implications for Airports',
-                          value: 'Ch. 3 Business Case and Implications for Airports',
+                          label: 'Ch. 3: Business Case and Implications for Airports',
+                          value: 'Ch. 3: Business Case and Implications for Airports',
                         }
                       - {
-                          label: 'Ch. 3.1 Business Case for UAM',
-                          value: 'Ch. 3.1 Business Case for UAM',
+                          label: 'Ch. 3.1: Business Case for UAM',
+                          value: 'Ch. 3.1: Business Case for UAM',
                         }
                       - {
-                          label: 'Ch. 3.2 Community Engagement',
-                          value: 'Ch. 3.2 Community Engagement',
+                          label: 'Ch. 3.2: Community Engagement',
+                          value: 'Ch. 3.2: Community Engagement',
                         }
                       - {
-                          label: 'Ch. 3.3 Funding Considerations',
-                          value: 'Ch. 3.3 Funding Considerations',
+                          label: 'Ch. 3.3: Funding Considerations',
+                          value: 'Ch. 3.3: Funding Considerations',
                         }
                       - {
-                          label: 'Ch. 3.4 Multimodal Integration',
-                          value: 'Ch. 3.4 Multimodal Integration',
+                          label: 'Ch. 3.4: Multimodal Integration',
+                          value: 'Ch. 3.4: Multimodal Integration',
                         }
                       - {
-                          label: 'Ch. 4 Use Cases Market Study',
-                          value: 'Ch. 4 Use Cases Market Study',
+                          label: 'Ch. 4: Use Cases Market Study',
+                          value: 'Ch. 4: Use Cases Market Study',
                         }
                       - {
-                          label: 'Ch. 5 Impact Assessment And Opportunities For UAM',
-                          value: 'Ch. 5 Impact Assessment And Opportunities For UAM',
+                          label: 'Ch. 5: Impact Assessment And Opportunities For UAM',
+                          value: 'Ch. 5: Impact Assessment And Opportunities For UAM',
                         }
                       - {
-                          label: 'Ch. 5.1 UAM Impacts on Airports',
-                          value: 'Ch. 5.1 UAM Impacts on Airports',
+                          label: 'Ch. 5.1: UAM Impacts on Airports',
+                          value: 'Ch. 5.1: UAM Impacts on Airports',
                         }
                       - {
-                          label: 'Ch. 5.2 UAM Opportunities for Airports',
-                          value: 'Ch. 5.2 UAM Opportunities for Airports',
+                          label: 'Ch. 5.2: UAM Opportunities for Airports',
+                          value: 'Ch. 5.2: UAM Opportunities for Airports',
                         }
                       - {
-                          label: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
-                          value: 'Ch. 6 Planning Strategies On Integrating UAM Into Airports',
+                          label: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
+                          value: 'Ch. 6: Planning Strategies On Integrating UAM Into Airports',
                         }
                       - {
-                          label: 'Ch. 6.10 AAM for Airport Master Planning',
-                          value: 'Ch. 6.10 AAM for Airport Master Planning',
+                          label: 'Ch. 6.10: AAM for Airport Master Planning',
+                          value: 'Ch. 6.10: AAM for Airport Master Planning',
                         }
                       - {
-                          label: 'Ch. 6.3 Applicable Policies & Standards',
-                          value: 'Ch. 6.3 Applicable Policies & Standards',
+                          label: 'Ch. 6.3: Applicable Policies & Standards',
+                          value: 'Ch. 6.3: Applicable Policies & Standards',
                         }
                       - {
-                          label: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
-                          value: 'Ch. 6.4 Policymaking Efforts on AAM Planning',
+                          label: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
+                          value: 'Ch. 6.4: Policymaking Efforts on AAM Planning',
                         }
                       - {
-                          label: 'Ch. 6.5 AAM Planning Process',
-                          value: 'Ch. 6.5 AAM Planning Process',
+                          label: 'Ch. 6.5: AAM Planning Process',
+                          value: 'Ch. 6.5: AAM Planning Process',
                         }
                       - {
-                          label: 'Ch. 6.6 Vertiports',
-                          value: 'Ch. 6.6 Vertiports',
+                          label: 'Ch. 6.6: Vertiports',
+                          value: 'Ch. 6.6: Vertiports',
                         }
                       - {
-                          label: 'Ch. 6.7 General Aviation Facilities',
-                          value: 'Ch. 6.7 General Aviation Facilities',
+                          label: 'Ch. 6.7: General Aviation Facilities',
+                          value: 'Ch. 6.7: General Aviation Facilities',
                         }
   - label: 'Settings'
     name: 'settings'
