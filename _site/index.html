@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ACRP 03-50A UAM Toolkit</title>
+    <title>ACRP 03-50A AAM Toolkit</title>
     
     
     <link rel="stylesheet" type="text/css" href="/include/css/main.css"/>
@@ -21,7 +21,7 @@
   <div class="relative logo">
     <a href="/" class="site-name">
       
-        ACRP 03-50A UAM Toolkit
+        ACRP 03-50A AAM Toolkit
       
     </a>
   </div>
@@ -45,11 +45,11 @@
         <!--Toggle button -->
         <button aria-expanded="false" class="menu-toggle" aria-label="Menu">
           <span class="self-center flex ml-4 font-headers">
-            Site Menu
+            Menu
           </span>
-          <span class="flex items-center bg-light-dark px-2 self-stretch rounded-br rounded-tr w-12 place-self-end">
+          <span class="flex items-center bg-primary px-2 self-stretch rounded-br rounded-tr w-12 place-self-end">
             <svg
-          class="fill-current h-4 w-4 mx-auto transition transform"
+          class="fill-white h-5 w-5 mx-auto transition transform"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20">
               <path
@@ -82,44 +82,44 @@
   
   <div class="home-content">
     <div class="home-content__left">
-<p>This assessment is designed to provide airport practitioners an understanding of their readiness to prepare for Advanced Air Mobility (AAM) and direct to resources in the guidebook that will provide the greatest benefit for advancing capability maturity.  Once completed, it will provide an assessment and recommendation for a Go/No-go decision.</p>
+<p>This assessment is designed to provide airport practitioners (i) an understanding of their readiness to prepare for Advanced Air Mobility (AAM); and, (ii) resources in the guidebook that will provide the greatest benefit for advancing capability maturity. Once completed, the assessment provides a readiness level and recommendation for a Go/No-go decision.</p>
 <h2>The Go/No-Go Decision</h2>
 <p>The assessment is a straightforward process of systematically evaluating the airport’s capabilities concerning three key areas: awareness, readiness, and infrastructure.</p>
-<p>The readiness levels are categorized into four levels to help determine a path forward for UAM integration at this stage.</p>
+<p>The four readiness levels will help determine a path forward for AAM integration.</p>
   <ol class="flex justify-between ml-0 text-center">
-      <li class=" list-none m-0 border-t-8 border-error flex-1 pt-3 font-bold text-lg">No-go</li>
-      <li class=" list-none m-0 border-t-8 border-orange flex-1 pt-3 font-bold text-lg">Not-now</li>
-      <li class=" list-none m-0 border-t-8 border-yellow flex-1 pt-3 font-bold text-lg">Slow-go</li>
-      <li class=" list-none m-0 border-t-8 border-green flex-1 pt-3 font-bold text-lg">Go-now</li>
+      <li class=" list-none m-0 border-t-8 border-error flex-1 pt-3 font-bold text-lg">1. No-go</li>
+      <li class=" list-none m-0 border-t-8 border-orange flex-1 pt-3 font-bold text-lg">2. Not-now</li>
+      <li class=" list-none m-0 border-t-8 border-yellow flex-1 pt-3 font-bold text-lg">3. Slow-go</li>
+      <li class=" list-none m-0 border-t-8 border-green flex-1 pt-3 font-bold text-lg">4. Go-now</li>
   </ol>
-<p>Understanding the readiness level can assist airport practitioners in areas to focus their efforts. The value of the level is not the focus of the assessment as much as gaining an understanding of agency capability and potential gaps relative to the criteria.  To better assist in filling these gaps, the assessment will provide references to specific guidebook areas to help provide information on key areas for success.</p>
+<p>Understanding the airport’s readiness level can assist airport practitioners in identifying focus areas for preparation. The value of the level is not the focus of the assessment; rather, gaining an understanding of agency capability and potential gaps relative to the criteria. To assist filling these gaps, the assessment also provides references to specific guidebook sections.</p>
 </div>
 <form id="airportClassification" class="home-content__right">
  <fieldset class="active">
-   <legend>Classification of Airport <span class="text-base text-dark">(Select One)</span></legend>
+   <legend>Airport Classification <span class="text-base text-dark">(Select One)</span></legend>
    <div class="error" id="classificationsError"></div>
-   <div class="custom-group space-y-4">
+   <div class="space-y-4">
      <div class="custom-group">
-       <input id="classHub" class="custom-radio" type="radio" value="hub" name="classifications" required>
-       <label for="classHub" class="custom-label-button bg-white">
+        <input id="classHub" class="custom-radio" type="radio" value="hub" name="classifications" required>
+       <label for="classHub" class="custom-label home-radios">
          Hub
        </label>
      </div>
      <div class="custom-group">
-       <input id="classUrban" class="custom-radio" type="radio" value="urban" name="classifications">
-       <label for="classUrban" class="custom-label-button bg-white">
+        <input id="classUrban" class="custom-radio" type="radio" value="urban" name="classifications">
+       <label for="classUrban" class="custom-label home-radios">
          Reliever/General Aviation Urban
        </label>
      </div>
      <div class="custom-group">
-       <input id="classSuburban" class="custom-radio" type="radio" value="suburban" name="classifications">
-       <label for="classSuburban" class="custom-label-button bg-white">
+        <input id="classSuburban" class="custom-radio" type="radio" value="suburban" name="classifications">
+       <label for="classSuburban" class="custom-label home-radios">
          Reliever/General Aviation Suburban
        </label>
      </div>
      <div class="custom-group">
-       <input id="classRural" class="custom-radio" type="radio" value="rural" name="classifications">
-       <label for="classRural" class="custom-label-button bg-white">
+        <input id="classRural" class="custom-radio" type="radio" value="rural" name="classifications">
+       <label for="classRural" class="custom-label home-radios">
          General Aviation Rural
        </label>
      </div>
@@ -129,7 +129,6 @@
      </button>
  </fieldset>
 </form>
-
   </div>
 </main>
 
@@ -147,12 +146,11 @@
   
 </div>
 <div class="text-center px-8">
-  <p class="text-white"
-      > &copy; <span id="year"></span>
+  <p class="text-white"> &copy; <span id="year"></span>
     <a href="" rel="noopener" target="_blank"  class="text-white underline"
-        >ACRP 03-50A UAM Toolkit
-      <span class="sr-only">(Open in a new window)</span></a
-      >
+        >ACRP
+      <span class="sr-only">(Open in a new window)</span>
+    </a>
   </p>
 </div>
 </footer>
