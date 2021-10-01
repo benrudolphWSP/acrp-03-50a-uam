@@ -64,6 +64,9 @@ main ul li > ul > li,
 main ol {
   @apply list-decimal;
 }
+.list-lower-alpha {
+  list-style: lower-alpha;
+}
 
 .two-column {
   columns: 2;

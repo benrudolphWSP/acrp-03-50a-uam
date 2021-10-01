@@ -83,6 +83,9 @@ module.exports = {
         14: '0.875rem',
         16: '1rem',
       },
+      listStyle: {
+        'lower-alpha': 'lower-alpha'
+      }
     },
     animation: {
       moveup: 'moveUp 0.25s ease-in-out',

@@ -145,7 +145,7 @@ export default function AssessmentSummary() {
       <div class="lg:w-1/2 lg:mr-8">
       <h3  class="h2">Level 1: No-Go</h3>
         <p>This level of readiness implies you may not be ready at this time because of:</p>
-        <ol type="a">
+        <ol class="list-lower-alpha two-column">
           <li>Insufficient interest </li>
           <li>Insufficient capability</li>
           <li>Insufficient resources</li>
