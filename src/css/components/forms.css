@@ -27,51 +27,37 @@ legend {
 }
 
 .custom-group {
-  @apply relative h-full;
+  @apply relative h-full border-2  border-transparent hover:border-secondary;
+
+  &.home {
+  }
 
   .custom-radio {
-    @apply opacity-0 w-full h-full absolute cursor-pointer;
+    @apply absolute top-5 left-4 mr-3 border-secondary text-primary-dark shadow-sm focus:border-secondary focus:ring focus:ring-offset-0 focus:ring-primary-light focus:ring-opacity-50;
   }
   .custom-label {
-    @apply bg-white block h-full p-2 transition-colors duration-300 z-10 cursor-pointer font-medium text-sm;
-  }
-  .custom-label-button {
-    @apply flex items-center justify-center border-2 border-primary h-full p-3 pr-6 transition-colors duration-300 z-10 cursor-pointer font-bold text-xl;
-  }
-  .custom-radio:hover + .custom-label-button,
-  .custom-radio:focus + .custom-label-button {
-    @apply bg-primary-light border-primary-dark;
-  }
-  .custom-radio:checked + .custom-label-button {
-    @apply bg-primary-light;
-  }
-  .custom-radio:checked:focus + .custom-label-button {
-    @apply bg-primary;
-  }
-  .custom-radio:hover + .custom-label {
-    @apply bg-light bg-opacity-50;
-  }
-  .custom-radio:checked + .custom-label,
-  .success-level:nth-child(2) .custom-radio:focus + .custom-label {
-    background-color: #0be52c4a;
+    @apply bg-light h-full block px-3 py-3 pl-10 transition-colors duration-300 z-10 cursor-pointer font-medium;
+    &.home-radios {
+      @apply text-base p-4 pl-11 bg-primary-light;
+    }
   }
 }
 .success-level .custom-radio:focus + .custom-label {
   @apply bg-light outline-black;
 }
 
-.success-level:nth-child(2) .custom-radio:checked + .custom-label,
+.success-level:nth-child(2) .custom-radio:checked ~ .custom-label,
 .success-level:nth-child(2) .custom-radio:focus + .custom-label,
 .bg-level1 {
-  background-color: #e50b0b4a;
+  background-color: #f6131341;
 }
 .success-level:nth-child(3) .custom-radio:checked + .custom-label,
 .success-level:nth-child(3) .custom-radio:focus + .custom-label,
 .bg-level2 {
-  background-color: #e5d60b4a;
+  background-color: #eee1283f;
 }
 .success-level:nth-child(4) .custom-radio:checked + .custom-label,
 .success-level:nth-child(4) .custom-radio:focus + .custom-label,
 .bg-level3 {
-  background-color: #0be52c4a;
+  background-color: #06b3203a;
 }

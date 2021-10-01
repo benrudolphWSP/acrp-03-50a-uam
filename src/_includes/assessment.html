@@ -25,9 +25,10 @@ layout: default
     <form id="classification-{{ path | slugId }}" class="">
       <fieldset id="step1">
         <legend>
-          1. Awareness of Advanced Air Mobility (AAM) Weight 20%
-          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step.</span>
+          1. Awareness of Advanced Air Mobility (AAM)
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step. The answers to these questions are weighted 20% of the readiness level.</span>
         </legend>
+        <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button pdf-button">View PDF Guidebook</a>
         {% set i = 100 %}
         {% set count = 0 %}
 
@@ -36,15 +37,11 @@ layout: default
           <div class="success-levels">
             <div class="success-question">
               <p class="success-level__question">{{item.question}}</p>
-              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
-                <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
-                <p class="download-instructions">
-                      To further advance your knowledge on this topic or for guidance on improving your readiness level, visit these chapters in the guidebook. 
-                  </p>
+              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5">
                 <ul class="guidebook-chapters">
                   {% for chapter in item.guidebooksection %}
                     <li class="chapter-item">
-                      {{chapter}}
+                      See {{chapter}}
                     </li>
                   {% endfor %}
                 </ul>
@@ -53,8 +50,10 @@ layout: default
             <div class="success-level">
               <div class="custom-group">
                 <input id="q{{i}}-level1" class="custom-radio" type="radio" value="0" name="q{{i}}-levels" required>
-                <label for="q{{i}}-level1" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 1</span>
+                <label for="q{{i}}-level1" class="custom-label ">
+                  <span class="block text-lg text-links font-bold mb-2">
+                    Level 1
+                  </span>
                   {{item.level1}}
                 </label>
               </div>
@@ -62,17 +61,19 @@ layout: default
             <div class="success-level">
               <div class="custom-group">
                 <input id="q{{i}}-level2" class="custom-radio" type="radio" value="1" name="q{{i}}-levels">
-                <label for="q{{i}}-level2" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 2</span>
+                <label for="q{{i}}-level2" class="custom-label ">
+                  <span class="block text-lg text-links font-bold mb-2">
+                  Level 2</span>
                   {{item.level2}}
                 </label>
               </div>
             </div>
             <div class="success-level">
               <div class="custom-group">
-                <input id="q{{i}}-levle3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
-                <label for="q{{i}}-level3" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 3</span>
+                <input id="q{{i}}-level3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
+                <label for="q{{i}}-level3" class="custom-label ">
+                  <span class="block text-lg text-links font-bold mb-2">
+                    Level 3</span>
                   {{item.level3}}
                 </label>
               </div>
@@ -89,9 +90,10 @@ layout: default
       </fieldset>
       <fieldset id="step2">
         <legend>
-          2. Readiness for AAM Weight 45% 
-          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step.</span>
+          2. Readiness for AAM
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step. The answers to these questions are weighted 45% of the readiness level.</span>
         </legend>
+        <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button pdf-button">View PDF Guidebook</a>
         {% set i = 200 %}
 
         {% for item in successfactor2.contextreadiness %}
@@ -99,15 +101,11 @@ layout: default
           <div class="success-levels">
             <div class="success-question">
               <p class="success-level__question">{{item.question}}</p>
-              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
-                <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
-                <p class="download-instructions">
-                      To further advance your knowledge on this topic or for guidance on improving your readiness level, visit these chapters in the guidebook. 
-                  </p>
+              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5">
                 <ul class="guidebook-chapters">
                   {% for chapter in item.guidebooksection %}
                     <li class="chapter-item">
-                      {{chapter}}
+                      See {{chapter}}
                     </li>
                   {% endfor %}
                 </ul>
@@ -117,7 +115,9 @@ layout: default
               <div class="custom-group">
                 <input id="q{{i}}-level1" class="custom-radio" type="radio" value="0" name="q{{i}}-levels" required>
                 <label for="q{{i}}-level1" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 1</span>
+                  <span class="block text-lg text-links font-bold mb-2">
+                    Level 1
+                  </span>
                   {{item.level1}}
                 </label>
               </div>
@@ -126,16 +126,18 @@ layout: default
               <div class="custom-group">
                 <input id="q{{i}}-level2" class="custom-radio" type="radio" value="1" name="q{{i}}-levels">
                 <label for="q{{i}}-level2" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 2</span>
+                  <span class="block text-lg text-links font-bold mb-2">
+                  Level 2</span>
                   {{item.level2}}
                 </label>
               </div>
             </div>
             <div class="success-level">
               <div class="custom-group">
-                <input id="q{{i}}-levle3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
+                <input id="q{{i}}-level3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
                 <label for="q{{i}}-level3" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 3</span>
+                  <span class="block text-lg text-links font-bold mb-2">
+                    Level 3</span>
                   {{item.level3}}
                 </label>
               </div>
@@ -153,9 +155,10 @@ layout: default
       </fieldset>
       <fieldset id="step3">
         <legend>
-          3. Infrastructure for AAM Weight 35%
-          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step.</span>
+          3. Infrastructure for AAM
+          <span class="block ml-7 pt-4 text-base">Select a level (1, 2 or 3) for each question below. All questions are required to advance to the next step. The answers to these questions are weighted 35% of the readiness level.</span>
         </legend>
+        <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button pdf-button">View PDF Guidebook</a>
         {% set i = 300 %}
 
         {% for item in successfactor3.contextInfrastructure %}
@@ -163,15 +166,11 @@ layout: default
           <div class="success-levels">
             <div class="success-question">
               <p class="success-level__question">{{item.question}}</p>
-              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5 bg-real-white">
-                <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button download-button">View PDF Guidebook</a>
-                <p class="download-instructions">
-                      To further advance your knowledge on this topic or for guidance on improving your readiness level, visit these chapters in the guidebook. 
-                  </p>
+              <div class="md:flex-grow-0 md:w-4/12 p-3 lg:ml-5">
                 <ul class="guidebook-chapters">
                   {% for chapter in item.guidebooksection %}
                     <li class="chapter-item">
-                      {{chapter}}
+                      See {{chapter}}
                     </li>
                   {% endfor %}
                 </ul>
@@ -181,7 +180,9 @@ layout: default
               <div class="custom-group">
                 <input id="q{{i}}-level1" class="custom-radio" type="radio" value="0" name="q{{i}}-levels" required>
                 <label for="q{{i}}-level1" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 1</span>
+                  <span class="block text-lg text-links font-bold mb-2">
+                    Level 1
+                  </span>
                   {{item.level1}}
                 </label>
               </div>
@@ -190,16 +191,18 @@ layout: default
               <div class="custom-group">
                 <input id="q{{i}}-level2" class="custom-radio" type="radio" value="1" name="q{{i}}-levels">
                 <label for="q{{i}}-level2" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 2</span>
+                  <span class="block text-lg text-links font-bold mb-2">
+                  Level 2</span>
                   {{item.level2}}
                 </label>
               </div>
             </div>
             <div class="success-level">
               <div class="custom-group">
-                <input id="q{{i}}-levle3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
+                <input id="q{{i}}-level3" class="custom-radio" type="radio" value="2" name="q{{i}}-levels">
                 <label for="q{{i}}-level3" class="custom-label">
-                  <span class="block text-base text-links font-bold">Level 3</span>
+                  <span class="block text-lg text-links font-bold mb-2">
+                    Level 3</span>
                   {{item.level3}}
                 </label>
               </div>

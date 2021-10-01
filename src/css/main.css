@@ -80,6 +80,10 @@ main ol {
   margin-right: 0.9375rem;
 }
 
+.print-only {
+  display: none;
+}
+
 @media print {
   body * {
     visibility: hidden;
@@ -108,6 +112,9 @@ main ol {
     page-break-after: auto;
   }
 
+  .print-only {
+    display: block;
+  }
   .no-print {
     display: none;
     visibility: hidden;

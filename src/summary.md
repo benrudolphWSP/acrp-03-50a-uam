@@ -16,7 +16,9 @@ parent: Home
 </div>
 
 <div class="print-area my-10 max-w-6xl mx-auto">
-  <h2 class="page-title action-plan h1">Levels of Readiness</h2>
+
+  <h2 class="page-title action-plan h3 print-only">ACRP 03-50A Advanced Air Mobility (AAM) Airport Assessment Tool</h2>
+  <h3 class="page-title action-plan h1">Airport Readiness Level</h3>
   <p>Thank you for completing the assessment. Based on the inputs provided, the assessment level is:</p>
 
   <div id="recommendations" class="action-items"></div>
