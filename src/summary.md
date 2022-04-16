@@ -8,7 +8,7 @@ parent: Home
 ---
 
 <div class="flex justify-end pb-6 border-b-2 border-light active">
-  <a href="#" data-href="/classifications" class="prev-button">Modify Assessment</a>
+  <a href="#" data-href="../classifications" class="prev-button">Modify Assessment</a>
   <div class="flex justify-end">
     <button data-micromodal-trigger="modal-1" class="button restart-button mr-3">Restart Assessment</button>
     <button class="button print-plan ml-0">Print</button>

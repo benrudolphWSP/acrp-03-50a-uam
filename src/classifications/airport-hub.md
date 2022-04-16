@@ -14,7 +14,7 @@ successfactor1:
       level3: High level of awareness and a keen interest in closely following
         fundamental and applied research and development in this area.
       guidebooksection:
-        - 'Ch. 3: Business Case and Implications for Airports'
+        - 'Ch. 4: Business Case and Implications for Airports'
     - question: Has there been any coordination with city and department of
         transportation planners, state aeronautics, MPOs, AOGs, transit
         agencies, and other stakeholders to identify common goals for UAM,
@@ -26,8 +26,8 @@ successfactor1:
       level3: Formal coordination mechanisms in place tapping into expertise and
         experience beyond the airport community in relation to UAM.
       guidebooksection:
-        - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: UAM Planning Process'
+        - 'Ch. 4.4: Multimodal Integration'
+        - 'Ch. 6.3: UAM Planning Process'
     - question: Has the airport coordinated with OEMs and service providers to
         understand opportunities and specific needs to incorporate before
         planning for UAM initiatives?
@@ -36,7 +36,8 @@ successfactor1:
       level3: Actively working or plan to collaborate with OEM and Service providers
         to plan for UAM operations.
       guidebooksection:
-        - 'Ch. 4: Use Cases Market Study'
+        - 'Ch. 2: Market Study'
+        - 'Ch. 3: Use Cases and applications'
         - 'Ch. 5.2: UAM Opportunities for Airports'
     - question: Has the airport identified funding for UAM initiatives?
       level1: Access to funding in support of such practices is ad hoc and
@@ -49,7 +50,7 @@ successfactor1:
         established budgetary and program processes that encourage innovation
         advocates to compete for funding.
       guidebooksection:
-        - 'Ch. 3.3: Funding Considerations'
+        - 'Ch. 4.3: Funding Considerations'
         - 'Ch. 5.2: UAM Opportunities for Airports'
     - level1: No collaboration or smart-city initiatives are available or feasible at
         this time.
@@ -62,7 +63,7 @@ successfactor1:
         incorporate the airport into these plans?
       guidebooksection:
         - 'Ch. 2: Market Assessment'
-        - 'Ch. 3.4: Multimodal Integration'
+        - 'Ch. 4.4: Multimodal Integration'
     - level1: There are staff members with some technical expertise and interest in
         participating or potentially leading UAM initiatives, but no clear
         choice in terms of level of interest.
@@ -75,7 +76,7 @@ successfactor1:
       question: Is there an innovative culture, champion, and/or organization at the
         airport or city that could support UAM?
       guidebooksection:
-        - 'Ch. 3: Business Case and Implications for Airports'
+        - 'Ch. 4: Business Case and Implications for Airports'
 tags: classifications
 successfactor2:
   contextreadiness:
@@ -88,8 +89,8 @@ successfactor2:
         emerging practices and experiences to incorporate UAM as an early
         adopter.
       guidebooksection:
-        - 'Ch. 3: Business Case and Implications for Airports'
-        - 'Ch. 6.5: UAM Planning Process'
+        - 'Ch. 4: Business Case and Implications for Airports'
+        - 'Ch. 6.3: UAM Planning Process'
     - question: Have airport resources been identified for future growth
         opportunities? (e.g., electrical system, operational density, land use,
         zoning requirements, lease agreement modifications)
@@ -100,7 +101,7 @@ successfactor2:
         is prepared for productive conversations with OEMs, service providers,
         and the supporting industry.
       guidebooksection:
-        - 'Ch. 4: Use Cases Market Study'
+        - 'Ch. 3: Use Cases and applications'
         - 'Ch. 6: Planning Strategies On Integrating UAM Into Airports'
     - question: Has the airport master plan been updated to incorporate UAM or
         electrification initiatives?
@@ -112,7 +113,7 @@ successfactor2:
         initiatives.
       guidebooksection:
         - 'Ch. 5.2: UAM Opportunities for Airports'
-        - 'Ch. 6.10: UAM for Airport Master Planning'
+        - 'Ch. 6.8: UAM for Airport Master Planning'
     - question: Has the airport planned or coordinated with the city for community
         engagement for UAM initiatives?
       level1: None or minimal community engagement has been planned for UAM operations.
@@ -122,14 +123,14 @@ successfactor2:
         Comprehensive community engagement plans have been established for
         community support and feedback.
       guidebooksection:
-        - 'Ch. 3.2: Community Engagement'
+        - 'Ch. 4.2: Community Engagement'
     - question: Do you have political support for UAM development?
       level1: No political support at this time.
       level2: There have not been discussions regarding UAM initiatives, but there is
         an environment conducive to innovation.
       level3: Have political support to move forward with UAM initiatives.
       guidebooksection:
-        - 'Ch. 3.4: Multimodal Integration'
+        - 'Ch. 4.4: Multimodal Integration'
     - question: >
         Are local or state policies or ordinances prohibitive to new UAM
         operations at the airport?
@@ -141,7 +142,7 @@ successfactor2:
       level3: |
         There are policies in place which support advancing UAM initiatives.
       guidebooksection:
-        - 'Ch. 6.3: Applicable Policies & Standards'
+        - 'Ch. 6.2: Policymaking Efforts on UAM Planning'
     - question: >
         Have current leases been evaluated and updated plans created in
         anticipation of collaboration with new UAM tenants at the airport?
@@ -155,7 +156,7 @@ successfactor2:
         Lease agreements are available and are ready to be negotiated with UAM
         tenants.
       guidebooksection:
-        - 'Ch. 6.3: Applicable Policies & Standards'
+        - 'Ch. 6.1: Applicable Policies & Standards'
     - question: >
         Has the airport planned or coordinated with the city for community
         engagement for UAM initiatives?
@@ -168,7 +169,7 @@ successfactor2:
         Communities have been engaged, and continual outreach plans will be part
         of the implementation of UAM initiatives.
       guidebooksection:
-        - 'Ch. 3.2: Community Engagement'
+        - 'Ch. 4.2: Community Engagement'
     - question: >
         Have you considered location of curbside facilities and determined if
         they are available to support UAM operations?
@@ -182,7 +183,7 @@ successfactor2:
         Curbside facilities exist and are readily available for use for UAM
         passengers.
       guidebooksection:
-        - 'Ch. 6.4: Policymaking Efforts on UAM Planning'
+        - 'Ch. 6.2: Policymaking Efforts on UAM Planning'
     - question: >
         Have there been discussions around the availability of a sustainable
         workforce to support new operations in the area?
@@ -200,7 +201,7 @@ successfactor2:
         expertise available within the agency or accessible through outsourcing
         to undertake the UAM initiatives.
       guidebooksection:
-        - 'Ch. 6.4: Policymaking Efforts on UAM Planning'
+        - 'Ch. 6.2: Policymaking Efforts on UAM Planning'
     - question: >
         Have there been any discussions with housing authorities to determine if
         there is available housing in the community to support new workforce
@@ -215,8 +216,8 @@ successfactor2:
         and the costs are sustainable to support the needs of workforce
         entrants.
       guidebooksection:
-        - 'Ch. 3: Business Case and Implications for Airports'
-        - 'Ch. 4: Use Cases Market Study'
+        - 'Ch. 3: Use Cases and applications'
+        - 'Ch. 4: Business Case and Implications for Airports'
     - question: >
         Have there been discussions regarding training programs or growth paths
         to train new workers for Urban Air Mobility initiatives with State
@@ -230,7 +231,7 @@ successfactor2:
         There are established programs to train new generations of workers for
         UAM initiatives.
       guidebooksection:
-        - 'Ch. 3.4: Multimodal Integration'
+        - 'Ch. 4.4: Multimodal Integration'
 successfactor3:
   contextInfrastructure:
     - question: >
@@ -251,8 +252,8 @@ successfactor3:
         solutions exist to enable efficient transportation for multimodal
         connections with UAM.
       guidebooksection:
-        - 'Ch. 3.4: Multimodal Integration'
-        - 'Ch. 6.5: UAM Planning Process'
+        - 'Ch. 4.4: Multimodal Integration'
+        - 'Ch. 6.3: UAM Planning Process'
     - question: >
         Are you aware of the development goals for the adjacent land surrounding
         your airport?
@@ -265,8 +266,8 @@ successfactor3:
         Airport, surrounding land, and stakeholders are aligned and supportive
         of opportunities and discussions surrounding UAM initiatives.
       guidebooksection:
-        - 'Ch. 3.3: Funding Considerations'
-        - 'Ch. 6.7: General Aviation Facilities'
+        - 'Ch. 4.3: Funding Considerations'
+        - 'Ch. 6.5: General Aviation Facilities'
     - question: >
         Is there available space at the airport to accommodate UAM facilities or
         operations? (e.g., Passenger Air Mobility, Air Cargo, Emergency
@@ -292,7 +293,7 @@ successfactor3:
       level3: |
         There are areas available that also have favorable zoning.
       guidebooksection:
-        - 'Ch. 3.4: Multimodal Integration'
+        - 'Ch. 4.4: Multimodal Integration'
     - question: >
         Do you have capacity for new tenants who will support UAM? (.e.g.,
         Concessions, Maintenance Facilities, UAM Support Businesses, Package
@@ -304,7 +305,7 @@ successfactor3:
       level3: |
         Plentiful space is available to support new tenants.
       guidebooksection:
-        - 'Ch. 3: Business Case and Implications for Airports'
+        - 'Ch. 4: Business Case and Implications for Airports'
         - 'Ch. 5: Impact Assessment And Opportunities For UAM'
     - question: >
         Has the airport met with utility companies to identify the electrical
@@ -320,5 +321,5 @@ successfactor3:
         Have dedicated electrical capacity or plan to build infrastructure to
         support UAM and other airport operations for future capacity needs.
       guidebooksection:
-        - 'Ch. 6.5: UAM Planning Process'
+        - 'Ch. 6.3: UAM Planning Process'
 ---

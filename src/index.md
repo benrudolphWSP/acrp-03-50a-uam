@@ -58,7 +58,7 @@ Understanding the airport’s readiness level can assist airport practitioners i
        </label>
      </div>
    </div>
-     <button data-href="/classifications" type="submit" class="button next-button mr-auto mt-10" id="saveForm" data-save-form="airportClassification" data-step="1">
+     <button data-href="./classifications" type="submit" class="button next-button mr-auto mt-10" id="saveForm" data-save-form="airportClassification" data-step="1">
        Start Assessment
      </button>
  </fieldset>

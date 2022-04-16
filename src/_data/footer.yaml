@@ -1,6 +1,6 @@
 copyright: ACRP
 author: Ben Rudolph
-footerlogo: /images/logo_acrp.png
+footerlogo: ./images/logo_acrp.png
 footerlogoalttext: Airport Cooperative Research Program
 footerlogourl: null
 copyurl: null

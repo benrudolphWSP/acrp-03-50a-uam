@@ -37,6 +37,6 @@ export default function clickHandler(event) {
     localStorage.removeItem('formSaver-classification-airport-urban');
     localStorage.removeItem('formSaver-classification-airport-suburban');
     localStorage.removeItem('formSaver-classification-airport-rural');
-    window.location.href = '/';
+    window.location.href = '../index.html';
   }
 }

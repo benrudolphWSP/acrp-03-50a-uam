@@ -44,9 +44,10 @@ export default function FormAdvance(target) {
             window.location.href =
               dataPageRedirect +
               '/airport-' +
-              Object.keys(airportClassification)[0].substring(15);
+              Object.keys(airportClassification)[0].substring(15)
+              + '/index.html';
           } else if (dataPageRedirect && !stepId) {
-            window.location.href = dataPageRedirect;
+            window.location.href = dataPageRedirect + '/index.html';
           } else if (pageRedirect) {
             window.location.href = pageRedirect;
           }
@@ -69,9 +70,10 @@ export default function FormAdvance(target) {
         window.location.href =
           dataPageRedirect +
           '/airport-' +
-          Object.keys(airportClassification)[0].substring(15);
+          Object.keys(airportClassification)[0].substring(15)
+          + '/index.html';
       } else if (dataPageRedirect && !stepId) {
-        window.location.href = dataPageRedirect;
+        window.location.href = dataPageRedirect + '/index.html';
       } else if (pageRedirect) {
         window.location.href = pageRedirect;
       }
