@@ -1,6 +1,6 @@
 {
   "port": 10816,
-  "path": "./",
+  "path": "./_site",
   "clr": "v4.0",
   "protocol": "http"
 }
