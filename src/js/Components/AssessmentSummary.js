@@ -154,7 +154,7 @@ export default function AssessmentSummary() {
           <li>Some or all of the above</li>
         </ol>
         <p>While the final decision rests with multiple decision-makers, it is essential to understand the consequences and ramifications of not advancing or preparing for UAM integration.  There may be multiple reasons, including little to no demand for services, distance from activity centers, political or community resistance, limited funding, lack of a workforce to support UAM initiatives, or other reasons. A “No-go” may be a viable solution for some airports as it may not be feasible to incorporate UAM at this time.  If it is determined that the assessment level is a No-go due to lack of information, it will be prudent to study the associated areas in the guidance document.  The guidance document will inform ways to improve readiness and understand how technology is changing to assist with future preparation if/when there is a decision to move forward with UAM goals.</p>
-        <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
+        <a href="../pdfs/ACRP0350_Final_Draft_Report_Clean.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
       </div>
       <table class="styled-table lg:w-1/2 mt-0">
         <tr>
@@ -189,7 +189,7 @@ export default function AssessmentSummary() {
       <div class="lg:w-1/2 lg:mr-8">
       <h3 class="h2">Level 2: Not-Now</h3>
         <p>This level of readiness implies it may not be the most prudent time to incorporate UAM.  There may be more actions to take before the airport is ready. It will be beneficial to continue to monitor the progress of UAM development and applications elsewhere.  It will be in the best interest of an airport to read the sections on the guidance document to understand the factors that led to a “not-now” decision to increase their readiness and revisit the decision when circumstances warrant it. The airports should also include a discussion of the consequences and ramifications of not proceeding with UAM initiatives at this time and an indication of when revisiting would be prudent.</p>
-        <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
+        <a href="../pdfs/ACRP0350_Final_Draft_Report_Clean.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
       </div>
       <table class="styled-table lg:w-1/2 mt-0">
         <tr>
@@ -224,7 +224,7 @@ export default function AssessmentSummary() {
       <div class="lg:w-1/2 lg:mr-8">
       <h3 class="h2">Level 3: Slow-Go</h3>
         <p>This level of readiness implies to advance toward UAM integration but for some combination of the initiatives. Do so at an “evolutionary” pace by naturally incorporating areas that best benefit the airport.  For example, upgrading the electrical grid may be beneficial to support electrification efforts for future vehicles and ground support equipment, which also supports UAM. Other beneficial areas are identifying ways to diversify revenue sources to prepare for less revenue from petrol-based fuel sources.  Ideally, integrate the use cases into the airport’s practices as it becomes relatively mainstreamed and prudent for the airport to adopt to mitigate risk. Include a discussion of the consequences and ramifications of a “slow-go” decision.</p>
-        <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
+        <a href="../pdfs/ACRP0350_Final_Draft_Report_Clean.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
       </div>
       <table class="styled-table lg:w-1/2 mt-0">
         <tr>
@@ -259,7 +259,7 @@ export default function AssessmentSummary() {
       <div class="lg:w-1/2 lg:mr-8">
           <h3 class="h2">Level 4: Go-Now</h3>
         <p>This level of readiness implies that it may be beneficial to expeditiously advance with UAM initiatives for the airport, including an expedited testing and evaluation phase, potentially in collaboration with others interested in advancing within the airport sector.  Even with a Go-now readiness level, it may not be prudent to incorporate all use cases at one time.  It will be beneficial to look at each use case individually and select the best matches for now and the future.  When assessing each use case, ensure to evaluate both the impacts and opportunities for each decision.  The next step will be to create a plan for an efficient way to incorporate these use cases into the airport as directed from the guidance document.</p>
-        <a href="/pdfs/ACRP0350_Task04_Interim_Report_05-15-2021.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
+        <a href="../pdfs/ACRP0350_Final_Draft_Report_Clean.pdf" target="_blank" class="button inline-block no-print pdf-button">View PDF Guidebook</a>
       </div>
             <table class="styled-table mt-0 lg:w-1/2">
         <tr>
